@@ -1,0 +1,832 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+		<title>Desafio Acelera Shape &#8211; Comunidade MyShape</title>
+<meta name='robots' content='max-image-preview:large' />
+<link rel='dns-prefetch' href='//cdnjs.cloudflare.com' />
+<link rel='dns-prefetch' href='//www.googletagmanager.com' />
+<link rel="alternate" type="application/rss+xml" title="Feed para Comunidade MyShape &raquo;" href="https://comunidademyshape.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Feed de comentários para Comunidade MyShape &raquo;" href="https://comunidademyshape.com/comments/feed/" />
+
+<style id='wp-emoji-styles-inline-css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link data-minify="1" rel='stylesheet' id='activecampaign-form-block-css' href='https://comunidademyshape.com/wp-content/cache/min/1/wp-content/plugins/activecampaign-subscription-forms/activecampaign-form-block/build/style-index.css?ver=1757456744' media='all' />
+<style id='global-styles-inline-css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}body { margin: 0;--wp--style--global--content-size: 800px;--wp--style--global--wide-size: 1200px; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }:where(.wp-site-blocks) > * { margin-block-start: 24px; margin-block-end: 0; }:where(.wp-site-blocks) > :first-child:first-child { margin-block-start: 0; }:where(.wp-site-blocks) > :last-child:last-child { margin-block-end: 0; }body { --wp--style--block-gap: 24px; }:where(body .is-layout-flow)  > :first-child:first-child{margin-block-start: 0;}:where(body .is-layout-flow)  > :last-child:last-child{margin-block-end: 0;}:where(body .is-layout-flow)  > *{margin-block-start: 24px;margin-block-end: 0;}:where(body .is-layout-constrained)  > :first-child:first-child{margin-block-start: 0;}:where(body .is-layout-constrained)  > :last-child:last-child{margin-block-end: 0;}:where(body .is-layout-constrained)  > *{margin-block-start: 24px;margin-block-end: 0;}:where(body .is-layout-flex) {gap: 24px;}:where(body .is-layout-grid) {gap: 24px;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}a:where(:not(.wp-element-button)){text-decoration: underline;}.wp-element-button, .wp-block-button__link{background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;line-height: inherit;padding: calc(0.667em + 2px) calc(1.333em + 2px);text-decoration: none;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link data-minify="1" rel='stylesheet' id='rkit-offcanvas-style-css' href='https://comunidademyshape.com/wp-content/cache/min/1/wp-content/plugins/rometheme-for-elementor/widgets/assets/css/offcanvas.css?ver=1757456744' media='all' />
+<link data-minify="1" rel='stylesheet' id='rkit-navmenu-style-css' href='https://comunidademyshape.com/wp-content/cache/min/1/wp-content/plugins/rometheme-for-elementor/widgets/assets/css/navmenu.css?ver=1757456744' media='all' />
+<link data-minify="1" rel='stylesheet' id='rkit-headerinfo-style-css' href='https://comunidademyshape.com/wp-content/cache/min/1/wp-content/plugins/rometheme-for-elementor/widgets/assets/css/headerinfo.css?ver=1757456744' media='all' />
+<link data-minify="1" rel='stylesheet' id='navmenu-rkit-style-css' href='https://comunidademyshape.com/wp-content/cache/min/1/wp-content/plugins/rometheme-for-elementor/widgets/assets/css/rkit-navmenu.css?ver=1757456744' media='all' />
+<link data-minify="1" rel='stylesheet' id='rkit-search-style-css' href='https://comunidademyshape.com/wp-content/cache/min/1/wp-content/plugins/rometheme-for-elementor/widgets/assets/css/search.css?ver=1757456744' media='all' />
+<link data-minify="1" rel='stylesheet' id='rkit-sitelogo-style-css' href='https://comunidademyshape.com/wp-content/cache/min/1/wp-content/plugins/rometheme-for-elementor/widgets/assets/css/site_logo.css?ver=1757456744' media='all' />
+<link data-minify="1" rel='stylesheet' id='rkit-post-grid-style-css' href='https://comunidademyshape.com/wp-content/cache/min/1/wp-content/plugins/rometheme-for-elementor/widgets/assets/css/rkit-blog-post.css?ver=1757456744' media='all' />
+<link data-minify="1" rel='stylesheet' id='rkit-post-block-style-css' href='https://comunidademyshape.com/wp-content/cache/min/1/wp-content/plugins/rometheme-for-elementor/widgets/assets/css/rkit-post-block.css?ver=1757456744' media='all' />
+<link data-minify="1" rel='stylesheet' id='rkit-cta-style-css' href='https://comunidademyshape.com/wp-content/cache/min/1/wp-content/plugins/rometheme-for-elementor/widgets/assets/css/cta.css?ver=1757456744' media='all' />
+<link data-minify="1" rel='stylesheet' id='rkit-blockquote-css' href='https://comunidademyshape.com/wp-content/cache/min/1/wp-content/plugins/rometheme-for-elementor/widgets/assets/css/blockquote.css?ver=1757456744' media='all' />
+<link data-minify="1" rel='stylesheet' id='rkit-social-share-css' href='https://comunidademyshape.com/wp-content/cache/min/1/wp-content/plugins/rometheme-for-elementor/widgets/assets/css/social_share.css?ver=1757456744' media='all' />
+<link data-minify="1" rel='stylesheet' id='rkit-team-style-css' href='https://comunidademyshape.com/wp-content/cache/min/1/wp-content/plugins/rometheme-for-elementor/widgets/assets/css/rkit_team.css?ver=1757456744' media='all' />
+<link data-minify="1" rel='stylesheet' id='rkit-running_text-style-css' href='https://comunidademyshape.com/wp-content/cache/min/1/wp-content/plugins/rometheme-for-elementor/widgets/assets/css/running_text.css?ver=1757456744' media='all' />
+<link data-minify="1" rel='stylesheet' id='rkit-animated_heading-style-css' href='https://comunidademyshape.com/wp-content/cache/min/1/wp-content/plugins/rometheme-for-elementor/widgets/assets/css/animated_heading.css?ver=1757456744' media='all' />
+<link data-minify="1" rel='stylesheet' id='rkit-card_slider-style-css' href='https://comunidademyshape.com/wp-content/cache/min/1/wp-content/plugins/rometheme-for-elementor/widgets/assets/css/card_slider.css?ver=1757456744' media='all' />
+<link data-minify="1" rel='stylesheet' id='rkit-accordion-style-css' href='https://comunidademyshape.com/wp-content/cache/min/1/wp-content/plugins/rometheme-for-elementor/widgets/assets/css/accordion.css?ver=1757456744' media='all' />
+<link data-minify="1" rel='stylesheet' id='rkit-testimonial_carousel-style-css' href='https://comunidademyshape.com/wp-content/cache/min/1/wp-content/plugins/rometheme-for-elementor/widgets/assets/css/testimonial_carousel.css?ver=1757456744' media='all' />
+<link data-minify="1" rel='stylesheet' id='rkit-swiper-css' href='https://comunidademyshape.com/wp-content/cache/min/1/wp-content/plugins/rometheme-for-elementor/widgets/assets/css/swiper-bundle.min.css?ver=1757456744' media='all' />
+<link data-minify="1" rel='stylesheet' id='rkit-tabs-style-css' href='https://comunidademyshape.com/wp-content/cache/min/1/wp-content/plugins/rometheme-for-elementor/widgets/assets/css/tabs.css?ver=1757456744' media='all' />
+<link data-minify="1" rel='stylesheet' id='rkit-progress-style-css' href='https://comunidademyshape.com/wp-content/cache/min/1/wp-content/plugins/rometheme-for-elementor/widgets/assets/css/progress-bar.css?ver=1757456744' media='all' />
+<link data-minify="1" rel='stylesheet' id='counter-style-css' href='https://comunidademyshape.com/wp-content/cache/min/1/wp-content/plugins/rometheme-for-elementor/widgets/assets/css/counter.css?ver=1757456744' media='all' />
+<link data-minify="1" rel='stylesheet' id='countdown-style-css' href='https://comunidademyshape.com/wp-content/cache/min/1/wp-content/plugins/rometheme-for-elementor/widgets/assets/css/countdown.css?ver=1757456744' media='all' />
+<link data-minify="1" rel='stylesheet' id='rkit-pricelist-style-css' href='https://comunidademyshape.com/wp-content/cache/min/1/wp-content/plugins/rometheme-for-elementor/widgets/assets/css/pricelist.css?ver=1757456744' media='all' />
+<link data-minify="1" rel='stylesheet' id='advanced_heading-style-css' href='https://comunidademyshape.com/wp-content/cache/min/1/wp-content/plugins/rometheme-for-elementor/widgets/assets/css/advanced_heading.css?ver=1757456744' media='all' />
+<link data-minify="1" rel='stylesheet' id='image_comparison-style-css' href='https://comunidademyshape.com/wp-content/cache/min/1/wp-content/plugins/rometheme-for-elementor/widgets/assets/css/image_comparison.css?ver=1757456744' media='all' />
+<link data-minify="1" rel='stylesheet' id='postlist-style-css' href='https://comunidademyshape.com/wp-content/cache/min/1/wp-content/plugins/rometheme-for-elementor/widgets/assets/css/postlist.css?ver=1757456744' media='all' />
+<link data-minify="1" rel='stylesheet' id='elementor-icons-rtmicon-css' href='https://comunidademyshape.com/wp-content/cache/min/1/wp-content/plugins/rometheme-for-elementor/assets/css/rtmicons.css?ver=1757456744' media='all' />
+<link data-minify="1" rel='stylesheet' id='rkit-widget-style-css' href='https://comunidademyshape.com/wp-content/cache/min/1/wp-content/plugins/rometheme-for-elementor/assets/css/rkit.css?ver=1757456744' media='all' />
+<link data-minify="1" rel='stylesheet' id='hello-elementor-css' href='https://comunidademyshape.com/wp-content/cache/min/1/wp-content/themes/hello-elementor/assets/css/reset.css?ver=1757456744' media='all' />
+<link data-minify="1" rel='stylesheet' id='hello-elementor-theme-style-css' href='https://comunidademyshape.com/wp-content/cache/min/1/wp-content/themes/hello-elementor/assets/css/theme.css?ver=1757456744' media='all' />
+<link data-minify="1" rel='stylesheet' id='hello-elementor-header-footer-css' href='https://comunidademyshape.com/wp-content/cache/min/1/wp-content/themes/hello-elementor/assets/css/header-footer.css?ver=1757456744' media='all' />
+<link rel='stylesheet' id='elementor-frontend-css' href='https://comunidademyshape.com/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=3.27.4' media='all' />
+<style id='elementor-frontend-inline-css'>
+@-webkit-keyframes ha_fadeIn{0%{opacity:0}to{opacity:1}}@keyframes ha_fadeIn{0%{opacity:0}to{opacity:1}}@-webkit-keyframes ha_zoomIn{0%{opacity:0;-webkit-transform:scale3d(.3,.3,.3);transform:scale3d(.3,.3,.3)}50%{opacity:1}}@keyframes ha_zoomIn{0%{opacity:0;-webkit-transform:scale3d(.3,.3,.3);transform:scale3d(.3,.3,.3)}50%{opacity:1}}@-webkit-keyframes ha_rollIn{0%{opacity:0;-webkit-transform:translate3d(-100%,0,0) rotate3d(0,0,1,-120deg);transform:translate3d(-100%,0,0) rotate3d(0,0,1,-120deg)}to{opacity:1}}@keyframes ha_rollIn{0%{opacity:0;-webkit-transform:translate3d(-100%,0,0) rotate3d(0,0,1,-120deg);transform:translate3d(-100%,0,0) rotate3d(0,0,1,-120deg)}to{opacity:1}}@-webkit-keyframes ha_bounce{0%,20%,53%,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1)}40%,43%{-webkit-transform:translate3d(0,-30px,0) scaleY(1.1);transform:translate3d(0,-30px,0) scaleY(1.1);-webkit-animation-timing-function:cubic-bezier(.755,.05,.855,.06);animation-timing-function:cubic-bezier(.755,.05,.855,.06)}70%{-webkit-transform:translate3d(0,-15px,0) scaleY(1.05);transform:translate3d(0,-15px,0) scaleY(1.05);-webkit-animation-timing-function:cubic-bezier(.755,.05,.855,.06);animation-timing-function:cubic-bezier(.755,.05,.855,.06)}80%{-webkit-transition-timing-function:cubic-bezier(.215,.61,.355,1);transition-timing-function:cubic-bezier(.215,.61,.355,1);-webkit-transform:translate3d(0,0,0) scaleY(.95);transform:translate3d(0,0,0) scaleY(.95)}90%{-webkit-transform:translate3d(0,-4px,0) scaleY(1.02);transform:translate3d(0,-4px,0) scaleY(1.02)}}@keyframes ha_bounce{0%,20%,53%,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1)}40%,43%{-webkit-transform:translate3d(0,-30px,0) scaleY(1.1);transform:translate3d(0,-30px,0) scaleY(1.1);-webkit-animation-timing-function:cubic-bezier(.755,.05,.855,.06);animation-timing-function:cubic-bezier(.755,.05,.855,.06)}70%{-webkit-transform:translate3d(0,-15px,0) scaleY(1.05);transform:translate3d(0,-15px,0) scaleY(1.05);-webkit-animation-timing-function:cubic-bezier(.755,.05,.855,.06);animation-timing-function:cubic-bezier(.755,.05,.855,.06)}80%{-webkit-transition-timing-function:cubic-bezier(.215,.61,.355,1);transition-timing-function:cubic-bezier(.215,.61,.355,1);-webkit-transform:translate3d(0,0,0) scaleY(.95);transform:translate3d(0,0,0) scaleY(.95)}90%{-webkit-transform:translate3d(0,-4px,0) scaleY(1.02);transform:translate3d(0,-4px,0) scaleY(1.02)}}@-webkit-keyframes ha_bounceIn{0%,20%,40%,60%,80%,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1)}0%{opacity:0;-webkit-transform:scale3d(.3,.3,.3);transform:scale3d(.3,.3,.3)}20%{-webkit-transform:scale3d(1.1,1.1,1.1);transform:scale3d(1.1,1.1,1.1)}40%{-webkit-transform:scale3d(.9,.9,.9);transform:scale3d(.9,.9,.9)}60%{opacity:1;-webkit-transform:scale3d(1.03,1.03,1.03);transform:scale3d(1.03,1.03,1.03)}80%{-webkit-transform:scale3d(.97,.97,.97);transform:scale3d(.97,.97,.97)}to{opacity:1}}@keyframes ha_bounceIn{0%,20%,40%,60%,80%,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1)}0%{opacity:0;-webkit-transform:scale3d(.3,.3,.3);transform:scale3d(.3,.3,.3)}20%{-webkit-transform:scale3d(1.1,1.1,1.1);transform:scale3d(1.1,1.1,1.1)}40%{-webkit-transform:scale3d(.9,.9,.9);transform:scale3d(.9,.9,.9)}60%{opacity:1;-webkit-transform:scale3d(1.03,1.03,1.03);transform:scale3d(1.03,1.03,1.03)}80%{-webkit-transform:scale3d(.97,.97,.97);transform:scale3d(.97,.97,.97)}to{opacity:1}}@-webkit-keyframes ha_flipInX{0%{opacity:0;-webkit-transform:perspective(400px) rotate3d(1,0,0,90deg);transform:perspective(400px) rotate3d(1,0,0,90deg);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}40%{-webkit-transform:perspective(400px) rotate3d(1,0,0,-20deg);transform:perspective(400px) rotate3d(1,0,0,-20deg);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}60%{opacity:1;-webkit-transform:perspective(400px) rotate3d(1,0,0,10deg);transform:perspective(400px) rotate3d(1,0,0,10deg)}80%{-webkit-transform:perspective(400px) rotate3d(1,0,0,-5deg);transform:perspective(400px) rotate3d(1,0,0,-5deg)}}@keyframes ha_flipInX{0%{opacity:0;-webkit-transform:perspective(400px) rotate3d(1,0,0,90deg);transform:perspective(400px) rotate3d(1,0,0,90deg);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}40%{-webkit-transform:perspective(400px) rotate3d(1,0,0,-20deg);transform:perspective(400px) rotate3d(1,0,0,-20deg);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}60%{opacity:1;-webkit-transform:perspective(400px) rotate3d(1,0,0,10deg);transform:perspective(400px) rotate3d(1,0,0,10deg)}80%{-webkit-transform:perspective(400px) rotate3d(1,0,0,-5deg);transform:perspective(400px) rotate3d(1,0,0,-5deg)}}@-webkit-keyframes ha_flipInY{0%{opacity:0;-webkit-transform:perspective(400px) rotate3d(0,1,0,90deg);transform:perspective(400px) rotate3d(0,1,0,90deg);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}40%{-webkit-transform:perspective(400px) rotate3d(0,1,0,-20deg);transform:perspective(400px) rotate3d(0,1,0,-20deg);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}60%{opacity:1;-webkit-transform:perspective(400px) rotate3d(0,1,0,10deg);transform:perspective(400px) rotate3d(0,1,0,10deg)}80%{-webkit-transform:perspective(400px) rotate3d(0,1,0,-5deg);transform:perspective(400px) rotate3d(0,1,0,-5deg)}}@keyframes ha_flipInY{0%{opacity:0;-webkit-transform:perspective(400px) rotate3d(0,1,0,90deg);transform:perspective(400px) rotate3d(0,1,0,90deg);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}40%{-webkit-transform:perspective(400px) rotate3d(0,1,0,-20deg);transform:perspective(400px) rotate3d(0,1,0,-20deg);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}60%{opacity:1;-webkit-transform:perspective(400px) rotate3d(0,1,0,10deg);transform:perspective(400px) rotate3d(0,1,0,10deg)}80%{-webkit-transform:perspective(400px) rotate3d(0,1,0,-5deg);transform:perspective(400px) rotate3d(0,1,0,-5deg)}}@-webkit-keyframes ha_swing{20%{-webkit-transform:rotate3d(0,0,1,15deg);transform:rotate3d(0,0,1,15deg)}40%{-webkit-transform:rotate3d(0,0,1,-10deg);transform:rotate3d(0,0,1,-10deg)}60%{-webkit-transform:rotate3d(0,0,1,5deg);transform:rotate3d(0,0,1,5deg)}80%{-webkit-transform:rotate3d(0,0,1,-5deg);transform:rotate3d(0,0,1,-5deg)}}@keyframes ha_swing{20%{-webkit-transform:rotate3d(0,0,1,15deg);transform:rotate3d(0,0,1,15deg)}40%{-webkit-transform:rotate3d(0,0,1,-10deg);transform:rotate3d(0,0,1,-10deg)}60%{-webkit-transform:rotate3d(0,0,1,5deg);transform:rotate3d(0,0,1,5deg)}80%{-webkit-transform:rotate3d(0,0,1,-5deg);transform:rotate3d(0,0,1,-5deg)}}@-webkit-keyframes ha_slideInDown{0%{visibility:visible;-webkit-transform:translate3d(0,-100%,0);transform:translate3d(0,-100%,0)}}@keyframes ha_slideInDown{0%{visibility:visible;-webkit-transform:translate3d(0,-100%,0);transform:translate3d(0,-100%,0)}}@-webkit-keyframes ha_slideInUp{0%{visibility:visible;-webkit-transform:translate3d(0,100%,0);transform:translate3d(0,100%,0)}}@keyframes ha_slideInUp{0%{visibility:visible;-webkit-transform:translate3d(0,100%,0);transform:translate3d(0,100%,0)}}@-webkit-keyframes ha_slideInLeft{0%{visibility:visible;-webkit-transform:translate3d(-100%,0,0);transform:translate3d(-100%,0,0)}}@keyframes ha_slideInLeft{0%{visibility:visible;-webkit-transform:translate3d(-100%,0,0);transform:translate3d(-100%,0,0)}}@-webkit-keyframes ha_slideInRight{0%{visibility:visible;-webkit-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0)}}@keyframes ha_slideInRight{0%{visibility:visible;-webkit-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0)}}.ha_fadeIn{-webkit-animation-name:ha_fadeIn;animation-name:ha_fadeIn}.ha_zoomIn{-webkit-animation-name:ha_zoomIn;animation-name:ha_zoomIn}.ha_rollIn{-webkit-animation-name:ha_rollIn;animation-name:ha_rollIn}.ha_bounce{-webkit-transform-origin:center bottom;-ms-transform-origin:center bottom;transform-origin:center bottom;-webkit-animation-name:ha_bounce;animation-name:ha_bounce}.ha_bounceIn{-webkit-animation-name:ha_bounceIn;animation-name:ha_bounceIn;-webkit-animation-duration:.75s;-webkit-animation-duration:calc(var(--animate-duration)*.75);animation-duration:.75s;animation-duration:calc(var(--animate-duration)*.75)}.ha_flipInX,.ha_flipInY{-webkit-animation-name:ha_flipInX;animation-name:ha_flipInX;-webkit-backface-visibility:visible!important;backface-visibility:visible!important}.ha_flipInY{-webkit-animation-name:ha_flipInY;animation-name:ha_flipInY}.ha_swing{-webkit-transform-origin:top center;-ms-transform-origin:top center;transform-origin:top center;-webkit-animation-name:ha_swing;animation-name:ha_swing}.ha_slideInDown{-webkit-animation-name:ha_slideInDown;animation-name:ha_slideInDown}.ha_slideInUp{-webkit-animation-name:ha_slideInUp;animation-name:ha_slideInUp}.ha_slideInLeft{-webkit-animation-name:ha_slideInLeft;animation-name:ha_slideInLeft}.ha_slideInRight{-webkit-animation-name:ha_slideInRight;animation-name:ha_slideInRight}.ha-css-transform-yes{-webkit-transition-duration:var(--ha-tfx-transition-duration, .2s);transition-duration:var(--ha-tfx-transition-duration, .2s);-webkit-transition-property:-webkit-transform;transition-property:transform;transition-property:transform,-webkit-transform;-webkit-transform:translate(var(--ha-tfx-translate-x, 0),var(--ha-tfx-translate-y, 0)) scale(var(--ha-tfx-scale-x, 1),var(--ha-tfx-scale-y, 1)) skew(var(--ha-tfx-skew-x, 0),var(--ha-tfx-skew-y, 0)) rotateX(var(--ha-tfx-rotate-x, 0)) rotateY(var(--ha-tfx-rotate-y, 0)) rotateZ(var(--ha-tfx-rotate-z, 0));transform:translate(var(--ha-tfx-translate-x, 0),var(--ha-tfx-translate-y, 0)) scale(var(--ha-tfx-scale-x, 1),var(--ha-tfx-scale-y, 1)) skew(var(--ha-tfx-skew-x, 0),var(--ha-tfx-skew-y, 0)) rotateX(var(--ha-tfx-rotate-x, 0)) rotateY(var(--ha-tfx-rotate-y, 0)) rotateZ(var(--ha-tfx-rotate-z, 0))}.ha-css-transform-yes:hover{-webkit-transform:translate(var(--ha-tfx-translate-x-hover, var(--ha-tfx-translate-x, 0)),var(--ha-tfx-translate-y-hover, var(--ha-tfx-translate-y, 0))) scale(var(--ha-tfx-scale-x-hover, var(--ha-tfx-scale-x, 1)),var(--ha-tfx-scale-y-hover, var(--ha-tfx-scale-y, 1))) skew(var(--ha-tfx-skew-x-hover, var(--ha-tfx-skew-x, 0)),var(--ha-tfx-skew-y-hover, var(--ha-tfx-skew-y, 0))) rotateX(var(--ha-tfx-rotate-x-hover, var(--ha-tfx-rotate-x, 0))) rotateY(var(--ha-tfx-rotate-y-hover, var(--ha-tfx-rotate-y, 0))) rotateZ(var(--ha-tfx-rotate-z-hover, var(--ha-tfx-rotate-z, 0)));transform:translate(var(--ha-tfx-translate-x-hover, var(--ha-tfx-translate-x, 0)),var(--ha-tfx-translate-y-hover, var(--ha-tfx-translate-y, 0))) scale(var(--ha-tfx-scale-x-hover, var(--ha-tfx-scale-x, 1)),var(--ha-tfx-scale-y-hover, var(--ha-tfx-scale-y, 1))) skew(var(--ha-tfx-skew-x-hover, var(--ha-tfx-skew-x, 0)),var(--ha-tfx-skew-y-hover, var(--ha-tfx-skew-y, 0))) rotateX(var(--ha-tfx-rotate-x-hover, var(--ha-tfx-rotate-x, 0))) rotateY(var(--ha-tfx-rotate-y-hover, var(--ha-tfx-rotate-y, 0))) rotateZ(var(--ha-tfx-rotate-z-hover, var(--ha-tfx-rotate-z, 0)))}.happy-addon>.elementor-widget-container{word-wrap:break-word;overflow-wrap:break-word}.happy-addon>.elementor-widget-container,.happy-addon>.elementor-widget-container *{-webkit-box-sizing:border-box;box-sizing:border-box}.happy-addon p:empty{display:none}.happy-addon .elementor-inline-editing{min-height:auto!important}.happy-addon-pro img{max-width:100%;height:auto;-o-object-fit:cover;object-fit:cover}.ha-screen-reader-text{position:absolute;overflow:hidden;clip:rect(1px,1px,1px,1px);margin:-1px;padding:0;width:1px;height:1px;border:0;word-wrap:normal!important;-webkit-clip-path:inset(50%);clip-path:inset(50%)}.ha-has-bg-overlay>.elementor-widget-container{position:relative;z-index:1}.ha-has-bg-overlay>.elementor-widget-container:before{position:absolute;top:0;left:0;z-index:-1;width:100%;height:100%;content:""}.ha-popup--is-enabled .ha-js-popup,.ha-popup--is-enabled .ha-js-popup img{cursor:-webkit-zoom-in!important;cursor:zoom-in!important}.mfp-wrap .mfp-arrow,.mfp-wrap .mfp-close{background-color:transparent}.mfp-wrap .mfp-arrow:focus,.mfp-wrap .mfp-close:focus{outline-width:thin}.ha-advanced-tooltip-enable{position:relative;cursor:pointer;--ha-tooltip-arrow-color:black;--ha-tooltip-arrow-distance:0}.ha-advanced-tooltip-enable .ha-advanced-tooltip-content{position:absolute;z-index:999;display:none;padding:5px 0;width:120px;height:auto;border-radius:6px;background-color:#000;color:#fff;text-align:center;opacity:0}.ha-advanced-tooltip-enable .ha-advanced-tooltip-content::after{position:absolute;border-width:5px;border-style:solid;content:""}.ha-advanced-tooltip-enable .ha-advanced-tooltip-content.no-arrow::after{visibility:hidden}.ha-advanced-tooltip-enable .ha-advanced-tooltip-content.show{display:inline-block;opacity:1}.ha-advanced-tooltip-enable.ha-advanced-tooltip-top .ha-advanced-tooltip-content,body[data-elementor-device-mode=tablet] .ha-advanced-tooltip-enable.ha-advanced-tooltip-tablet-top .ha-advanced-tooltip-content{top:unset;right:0;bottom:calc(101% + var(--ha-tooltip-arrow-distance));left:0;margin:0 auto}.ha-advanced-tooltip-enable.ha-advanced-tooltip-top .ha-advanced-tooltip-content::after,body[data-elementor-device-mode=tablet] .ha-advanced-tooltip-enable.ha-advanced-tooltip-tablet-top .ha-advanced-tooltip-content::after{top:100%;right:unset;bottom:unset;left:50%;border-color:var(--ha-tooltip-arrow-color) transparent transparent transparent;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%)}.ha-advanced-tooltip-enable.ha-advanced-tooltip-bottom .ha-advanced-tooltip-content,body[data-elementor-device-mode=tablet] .ha-advanced-tooltip-enable.ha-advanced-tooltip-tablet-bottom .ha-advanced-tooltip-content{top:calc(101% + var(--ha-tooltip-arrow-distance));right:0;bottom:unset;left:0;margin:0 auto}.ha-advanced-tooltip-enable.ha-advanced-tooltip-bottom .ha-advanced-tooltip-content::after,body[data-elementor-device-mode=tablet] .ha-advanced-tooltip-enable.ha-advanced-tooltip-tablet-bottom .ha-advanced-tooltip-content::after{top:unset;right:unset;bottom:100%;left:50%;border-color:transparent transparent var(--ha-tooltip-arrow-color) transparent;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%)}.ha-advanced-tooltip-enable.ha-advanced-tooltip-left .ha-advanced-tooltip-content,body[data-elementor-device-mode=tablet] .ha-advanced-tooltip-enable.ha-advanced-tooltip-tablet-left .ha-advanced-tooltip-content{top:50%;right:calc(101% + var(--ha-tooltip-arrow-distance));bottom:unset;left:unset;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}.ha-advanced-tooltip-enable.ha-advanced-tooltip-left .ha-advanced-tooltip-content::after,body[data-elementor-device-mode=tablet] .ha-advanced-tooltip-enable.ha-advanced-tooltip-tablet-left .ha-advanced-tooltip-content::after{top:50%;right:unset;bottom:unset;left:100%;border-color:transparent transparent transparent var(--ha-tooltip-arrow-color);-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}.ha-advanced-tooltip-enable.ha-advanced-tooltip-right .ha-advanced-tooltip-content,body[data-elementor-device-mode=tablet] .ha-advanced-tooltip-enable.ha-advanced-tooltip-tablet-right .ha-advanced-tooltip-content{top:50%;right:unset;bottom:unset;left:calc(101% + var(--ha-tooltip-arrow-distance));-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}.ha-advanced-tooltip-enable.ha-advanced-tooltip-right .ha-advanced-tooltip-content::after,body[data-elementor-device-mode=tablet] .ha-advanced-tooltip-enable.ha-advanced-tooltip-tablet-right .ha-advanced-tooltip-content::after{top:50%;right:100%;bottom:unset;left:unset;border-color:transparent var(--ha-tooltip-arrow-color) transparent transparent;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}body[data-elementor-device-mode=mobile] .ha-advanced-tooltip-enable.ha-advanced-tooltip-mobile-top .ha-advanced-tooltip-content{top:unset;right:0;bottom:calc(101% + var(--ha-tooltip-arrow-distance));left:0;margin:0 auto}body[data-elementor-device-mode=mobile] .ha-advanced-tooltip-enable.ha-advanced-tooltip-mobile-top .ha-advanced-tooltip-content::after{top:100%;right:unset;bottom:unset;left:50%;border-color:var(--ha-tooltip-arrow-color) transparent transparent transparent;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%)}body[data-elementor-device-mode=mobile] .ha-advanced-tooltip-enable.ha-advanced-tooltip-mobile-bottom .ha-advanced-tooltip-content{top:calc(101% + var(--ha-tooltip-arrow-distance));right:0;bottom:unset;left:0;margin:0 auto}body[data-elementor-device-mode=mobile] .ha-advanced-tooltip-enable.ha-advanced-tooltip-mobile-bottom .ha-advanced-tooltip-content::after{top:unset;right:unset;bottom:100%;left:50%;border-color:transparent transparent var(--ha-tooltip-arrow-color) transparent;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%)}body[data-elementor-device-mode=mobile] .ha-advanced-tooltip-enable.ha-advanced-tooltip-mobile-left .ha-advanced-tooltip-content{top:50%;right:calc(101% + var(--ha-tooltip-arrow-distance));bottom:unset;left:unset;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}body[data-elementor-device-mode=mobile] .ha-advanced-tooltip-enable.ha-advanced-tooltip-mobile-left .ha-advanced-tooltip-content::after{top:50%;right:unset;bottom:unset;left:100%;border-color:transparent transparent transparent var(--ha-tooltip-arrow-color);-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}body[data-elementor-device-mode=mobile] .ha-advanced-tooltip-enable.ha-advanced-tooltip-mobile-right .ha-advanced-tooltip-content{top:50%;right:unset;bottom:unset;left:calc(101% + var(--ha-tooltip-arrow-distance));-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}body[data-elementor-device-mode=mobile] .ha-advanced-tooltip-enable.ha-advanced-tooltip-mobile-right .ha-advanced-tooltip-content::after{top:50%;right:100%;bottom:unset;left:unset;border-color:transparent var(--ha-tooltip-arrow-color) transparent transparent;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}body.elementor-editor-active .happy-addon.ha-gravityforms .gform_wrapper{display:block!important}.ha-scroll-to-top-wrap.ha-scroll-to-top-hide{display:none}.ha-scroll-to-top-wrap.edit-mode,.ha-scroll-to-top-wrap.single-page-off{display:none!important}.ha-scroll-to-top-button{position:fixed;right:15px;bottom:15px;z-index:9999;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;align-items:center;-ms-flex-align:center;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;width:50px;height:50px;border-radius:50px;background-color:#5636d1;color:#fff;text-align:center;opacity:1;cursor:pointer;-webkit-transition:all .3s;transition:all .3s}.ha-scroll-to-top-button i{color:#fff;font-size:16px}.ha-scroll-to-top-button:hover{background-color:#e2498a}.ha-particle-wrapper{position:absolute;top:0;left:0;width:100%;height:100%}.ha-floating-element{position:fixed;z-index:999}.ha-floating-element-align-top-left .ha-floating-element{top:0;left:0}.ha-floating-element-align-top-right .ha-floating-element{top:0;right:0}.ha-floating-element-align-top-center .ha-floating-element{top:0;left:50%;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%)}.ha-floating-element-align-middle-left .ha-floating-element{top:50%;left:0;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}.ha-floating-element-align-middle-right .ha-floating-element{top:50%;right:0;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}.ha-floating-element-align-bottom-left .ha-floating-element{bottom:0;left:0}.ha-floating-element-align-bottom-right .ha-floating-element{right:0;bottom:0}.ha-floating-element-align-bottom-center .ha-floating-element{bottom:0;left:50%;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%)}.ha-editor-placeholder{padding:20px;border:5px double #f1f1f1;background:#f8f8f8;text-align:center;opacity:.5}.ha-editor-placeholder-title{margin-top:0;margin-bottom:8px;font-weight:700;font-size:16px}.ha-editor-placeholder-content{margin:0;font-size:12px}.ha-p-relative{position:relative}.ha-p-absolute{position:absolute}.ha-p-fixed{position:fixed}.ha-w-1{width:1%}.ha-h-1{height:1%}.ha-w-2{width:2%}.ha-h-2{height:2%}.ha-w-3{width:3%}.ha-h-3{height:3%}.ha-w-4{width:4%}.ha-h-4{height:4%}.ha-w-5{width:5%}.ha-h-5{height:5%}.ha-w-6{width:6%}.ha-h-6{height:6%}.ha-w-7{width:7%}.ha-h-7{height:7%}.ha-w-8{width:8%}.ha-h-8{height:8%}.ha-w-9{width:9%}.ha-h-9{height:9%}.ha-w-10{width:10%}.ha-h-10{height:10%}.ha-w-11{width:11%}.ha-h-11{height:11%}.ha-w-12{width:12%}.ha-h-12{height:12%}.ha-w-13{width:13%}.ha-h-13{height:13%}.ha-w-14{width:14%}.ha-h-14{height:14%}.ha-w-15{width:15%}.ha-h-15{height:15%}.ha-w-16{width:16%}.ha-h-16{height:16%}.ha-w-17{width:17%}.ha-h-17{height:17%}.ha-w-18{width:18%}.ha-h-18{height:18%}.ha-w-19{width:19%}.ha-h-19{height:19%}.ha-w-20{width:20%}.ha-h-20{height:20%}.ha-w-21{width:21%}.ha-h-21{height:21%}.ha-w-22{width:22%}.ha-h-22{height:22%}.ha-w-23{width:23%}.ha-h-23{height:23%}.ha-w-24{width:24%}.ha-h-24{height:24%}.ha-w-25{width:25%}.ha-h-25{height:25%}.ha-w-26{width:26%}.ha-h-26{height:26%}.ha-w-27{width:27%}.ha-h-27{height:27%}.ha-w-28{width:28%}.ha-h-28{height:28%}.ha-w-29{width:29%}.ha-h-29{height:29%}.ha-w-30{width:30%}.ha-h-30{height:30%}.ha-w-31{width:31%}.ha-h-31{height:31%}.ha-w-32{width:32%}.ha-h-32{height:32%}.ha-w-33{width:33%}.ha-h-33{height:33%}.ha-w-34{width:34%}.ha-h-34{height:34%}.ha-w-35{width:35%}.ha-h-35{height:35%}.ha-w-36{width:36%}.ha-h-36{height:36%}.ha-w-37{width:37%}.ha-h-37{height:37%}.ha-w-38{width:38%}.ha-h-38{height:38%}.ha-w-39{width:39%}.ha-h-39{height:39%}.ha-w-40{width:40%}.ha-h-40{height:40%}.ha-w-41{width:41%}.ha-h-41{height:41%}.ha-w-42{width:42%}.ha-h-42{height:42%}.ha-w-43{width:43%}.ha-h-43{height:43%}.ha-w-44{width:44%}.ha-h-44{height:44%}.ha-w-45{width:45%}.ha-h-45{height:45%}.ha-w-46{width:46%}.ha-h-46{height:46%}.ha-w-47{width:47%}.ha-h-47{height:47%}.ha-w-48{width:48%}.ha-h-48{height:48%}.ha-w-49{width:49%}.ha-h-49{height:49%}.ha-w-50{width:50%}.ha-h-50{height:50%}.ha-w-51{width:51%}.ha-h-51{height:51%}.ha-w-52{width:52%}.ha-h-52{height:52%}.ha-w-53{width:53%}.ha-h-53{height:53%}.ha-w-54{width:54%}.ha-h-54{height:54%}.ha-w-55{width:55%}.ha-h-55{height:55%}.ha-w-56{width:56%}.ha-h-56{height:56%}.ha-w-57{width:57%}.ha-h-57{height:57%}.ha-w-58{width:58%}.ha-h-58{height:58%}.ha-w-59{width:59%}.ha-h-59{height:59%}.ha-w-60{width:60%}.ha-h-60{height:60%}.ha-w-61{width:61%}.ha-h-61{height:61%}.ha-w-62{width:62%}.ha-h-62{height:62%}.ha-w-63{width:63%}.ha-h-63{height:63%}.ha-w-64{width:64%}.ha-h-64{height:64%}.ha-w-65{width:65%}.ha-h-65{height:65%}.ha-w-66{width:66%}.ha-h-66{height:66%}.ha-w-67{width:67%}.ha-h-67{height:67%}.ha-w-68{width:68%}.ha-h-68{height:68%}.ha-w-69{width:69%}.ha-h-69{height:69%}.ha-w-70{width:70%}.ha-h-70{height:70%}.ha-w-71{width:71%}.ha-h-71{height:71%}.ha-w-72{width:72%}.ha-h-72{height:72%}.ha-w-73{width:73%}.ha-h-73{height:73%}.ha-w-74{width:74%}.ha-h-74{height:74%}.ha-w-75{width:75%}.ha-h-75{height:75%}.ha-w-76{width:76%}.ha-h-76{height:76%}.ha-w-77{width:77%}.ha-h-77{height:77%}.ha-w-78{width:78%}.ha-h-78{height:78%}.ha-w-79{width:79%}.ha-h-79{height:79%}.ha-w-80{width:80%}.ha-h-80{height:80%}.ha-w-81{width:81%}.ha-h-81{height:81%}.ha-w-82{width:82%}.ha-h-82{height:82%}.ha-w-83{width:83%}.ha-h-83{height:83%}.ha-w-84{width:84%}.ha-h-84{height:84%}.ha-w-85{width:85%}.ha-h-85{height:85%}.ha-w-86{width:86%}.ha-h-86{height:86%}.ha-w-87{width:87%}.ha-h-87{height:87%}.ha-w-88{width:88%}.ha-h-88{height:88%}.ha-w-89{width:89%}.ha-h-89{height:89%}.ha-w-90{width:90%}.ha-h-90{height:90%}.ha-w-91{width:91%}.ha-h-91{height:91%}.ha-w-92{width:92%}.ha-h-92{height:92%}.ha-w-93{width:93%}.ha-h-93{height:93%}.ha-w-94{width:94%}.ha-h-94{height:94%}.ha-w-95{width:95%}.ha-h-95{height:95%}.ha-w-96{width:96%}.ha-h-96{height:96%}.ha-w-97{width:97%}.ha-h-97{height:97%}.ha-w-98{width:98%}.ha-h-98{height:98%}.ha-w-99{width:99%}.ha-h-99{height:99%}.ha-w-100{width:100%}.ha-h-100{height:100%}.ha-flex{display:-webkit-box!important;display:-webkit-flex!important;display:-ms-flexbox!important;display:flex!important}.ha-flex-inline{display:-webkit-inline-box!important;display:-webkit-inline-flex!important;display:-ms-inline-flexbox!important;display:inline-flex!important}.ha-flex-x-start{-webkit-box-pack:start;-ms-flex-pack:start;-webkit-justify-content:flex-start;justify-content:flex-start}.ha-flex-x-end{-webkit-box-pack:end;-ms-flex-pack:end;-webkit-justify-content:flex-end;justify-content:flex-end}.ha-flex-x-between{-webkit-box-pack:justify;-ms-flex-pack:justify;-webkit-justify-content:space-between;justify-content:space-between}.ha-flex-x-around{-ms-flex-pack:distribute;-webkit-justify-content:space-around;justify-content:space-around}.ha-flex-x-even{-webkit-box-pack:space-evenly;-ms-flex-pack:space-evenly;-webkit-justify-content:space-evenly;justify-content:space-evenly}.ha-flex-x-center{-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center}.ha-flex-y-top{-webkit-box-align:start;-webkit-align-items:flex-start;align-items:flex-start;-ms-flex-align:start}.ha-flex-y-center{-webkit-box-align:center;-webkit-align-items:center;align-items:center;-ms-flex-align:center}.ha-flex-y-bottom{-webkit-box-align:end;-webkit-align-items:flex-end;align-items:flex-end;-ms-flex-align:end}
+</style>
+<link rel='stylesheet' id='elementor-post-8-css' href='https://comunidademyshape.com/wp-content/uploads/elementor/css/post-8.css?ver=1739557098' media='all' />
+<link rel='stylesheet' id='elementor-pro-css' href='https://comunidademyshape.com/wp-content/plugins/elementor-pro/assets/css/frontend.min.css?ver=3.7.3' media='all' />
+<link rel='stylesheet' id='widget-heading-css' href='https://comunidademyshape.com/wp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=3.27.4' media='all' />
+<link rel='stylesheet' id='widget-image-css' href='https://comunidademyshape.com/wp-content/plugins/elementor/assets/css/widget-image.min.css?ver=3.27.4' media='all' />
+<link rel='stylesheet' id='e-animation-fadeInUp-css' href='https://comunidademyshape.com/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInUp.min.css?ver=3.27.4' media='all' />
+<link rel='stylesheet' id='widget-text-editor-css' href='https://comunidademyshape.com/wp-content/plugins/elementor/assets/css/widget-text-editor.min.css?ver=3.27.4' media='all' />
+<link rel='stylesheet' id='e-animation-rotateIn-css' href='https://comunidademyshape.com/wp-content/plugins/elementor/assets/lib/animations/styles/rotateIn.min.css?ver=3.27.4' media='all' />
+<link data-minify="1" rel='stylesheet' id='swiper-css' href='https://comunidademyshape.com/wp-content/cache/min/1/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=1757456744' media='all' />
+<link rel='stylesheet' id='e-swiper-css' href='https://comunidademyshape.com/wp-content/plugins/elementor/assets/css/conditionals/e-swiper.min.css?ver=3.27.4' media='all' />
+<link rel='stylesheet' id='widget-image-carousel-css' href='https://comunidademyshape.com/wp-content/plugins/elementor/assets/css/widget-image-carousel.min.css?ver=3.27.4' media='all' />
+<link rel='stylesheet' id='widget-icon-list-css' href='https://comunidademyshape.com/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css?ver=3.27.4' media='all' />
+<link rel='stylesheet' id='e-animation-lightSpeedIn-css' href='https://comunidademyshape.com/wp-content/plugins/elementor/assets/lib/animations/styles/lightSpeedIn.min.css?ver=3.27.4' media='all' />
+<link rel='stylesheet' id='widget-icon-box-css' href='https://comunidademyshape.com/wp-content/plugins/elementor/assets/css/widget-icon-box.min.css?ver=3.27.4' media='all' />
+<link rel='stylesheet' id='e-animation-zoomIn-css' href='https://comunidademyshape.com/wp-content/plugins/elementor/assets/lib/animations/styles/zoomIn.min.css?ver=3.27.4' media='all' />
+<link rel='stylesheet' id='e-animation-bounce-css' href='https://comunidademyshape.com/wp-content/plugins/elementor/assets/lib/animations/styles/bounce.min.css?ver=3.27.4' media='all' />
+<link rel='stylesheet' id='e-animation-grow-css' href='https://comunidademyshape.com/wp-content/plugins/elementor/assets/lib/animations/styles/e-animation-grow.min.css?ver=3.27.4' media='all' />
+<link rel='stylesheet' id='widget-nested-accordion-css' href='https://comunidademyshape.com/wp-content/plugins/elementor/assets/css/widget-nested-accordion.min.css?ver=3.27.4' media='all' />
+<link rel='stylesheet' id='elementor-post-5998-css' href='https://comunidademyshape.com/wp-content/uploads/elementor/css/post-5998.css?ver=1757970179' media='all' />
+<link data-minify="1" rel='stylesheet' id='happy-icons-css' href='https://comunidademyshape.com/wp-content/cache/min/1/wp-content/plugins/happy-elementor-addons/assets/fonts/style.min.css?ver=1757456744' media='all' />
+<link data-minify="1" rel='stylesheet' id='font-awesome-css' href='https://comunidademyshape.com/wp-content/cache/min/1/wp-content/plugins/elementor/assets/lib/font-awesome/css/font-awesome.min.css?ver=1757456744' media='all' />
+<link rel='stylesheet' id='google-fonts-1-css' href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CMontserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=swap&#038;ver=6.4.7' media='all' />
+<link data-minify="1" rel='stylesheet' id='elementor-icons-shared-0-css' href='https://comunidademyshape.com/wp-content/cache/min/1/wp-content/plugins/happy-elementor-addons/assets/fonts/style.min.css?ver=1757456744' media='all' />
+<link data-minify="1" rel='stylesheet' id='elementor-icons-happy-icons-css' href='https://comunidademyshape.com/wp-content/cache/min/1/wp-content/plugins/happy-elementor-addons/assets/fonts/style.min.css?ver=1757456744' media='all' />
+<link data-minify="1" rel='stylesheet' id='elementor-icons-wppagebuilder-css' href='https://comunidademyshape.com/wp-content/cache/min/1/wp-content/plugins/icon-element/assets/wppagebuilder/wppagebuilder.css?ver=1757456806' media='all' />
+<link data-minify="1" rel='stylesheet' id='elementor-icons-rtmicons-thin-css' href='https://comunidademyshape.com/wp-content/cache/min/1/wp-content/plugins/rometheme-for-elementor/assets/css/rtmicon-thin.css?ver=1757456812' media='all' />
+<link data-minify="1" rel='stylesheet' id='elementor-icons-captain-css' href='https://comunidademyshape.com/wp-content/cache/min/1/wp-content/plugins/icon-element/assets/captain/captain.css?ver=1757456812' media='all' />
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin><script src="https://comunidademyshape.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js" defer></script>
+
+
+
+
+
+
+
+
+
+<!-- Snippet da etiqueta do Google (gtag.js) adicionado pelo Site Kit -->
+<!-- Snippet do Google Análises adicionado pelo Site Kit -->
+<!-- Snippet do Google Anúncios adicionado pelo Site Kit -->
+<script src="https://www.googletagmanager.com/gtag/js?id=GT-TX582CB" id="google_gtagjs-js" async></script>
+<script id="google_gtagjs-js-after">
+window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}
+gtag("set","linker",{"domains":["comunidademyshape.com"]});
+gtag("js", new Date());
+gtag("set", "developer_id.dZTNiMT", true);
+gtag("config", "GT-TX582CB");
+gtag("config", "AW-11452739374");
+</script>
+<link rel="https://api.w.org/" href="https://comunidademyshape.com/wp-json/" /><link rel="alternate" type="application/json" href="https://comunidademyshape.com/wp-json/wp/v2/pages/5998" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://comunidademyshape.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.4.7" />
+<link rel="canonical" href="https://comunidademyshape.com/acelera-shape/" />
+<link rel='shortlink' href='https://comunidademyshape.com/?p=5998' />
+<link rel="alternate" type="application/json+oembed" href="https://comunidademyshape.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcomunidademyshape.com%2Facelera-shape%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://comunidademyshape.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcomunidademyshape.com%2Facelera-shape%2F&#038;format=xml" />
+<meta name="generator" content="Site Kit by Google 1.161.0" /><meta name="generator" content="Elementor 3.27.4; features: e_font_icon_svg, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NLTBHFRD');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Meta Pixel Code -->
+<script type='text/javascript'>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+</script>
+<!-- End Meta Pixel Code -->
+			<style>
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
+					background-image: none !important;
+				}
+				@media screen and (max-height: 1024px) {
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+				@media screen and (max-height: 640px) {
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+			</style>
+						<meta name="theme-color" content="#F7F7F7">
+			<noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript>	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" /></head>
+<body class="page-template page-template-elementor_canvas page page-id-5998 wp-embed-responsive hello-elementor-default elementor-default elementor-template-canvas elementor-kit-8 elementor-page elementor-page-5998">
+	<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NLTBHFRD"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<!-- Meta Pixel Code -->
+<noscript>
+<img height="1" width="1" style="display:none" alt="fbpx"
+src="https://www.facebook.com/tr?id=730795561968089&ev=PageView&noscript=1" />
+</noscript>
+<!-- End Meta Pixel Code -->
+		<div data-elementor-type="wp-page" data-elementor-id="5998" class="elementor elementor-5998">
+				<div class="elementor-element elementor-element-cbcd98d e-flex e-con-boxed e-con e-parent" data-id="cbcd98d" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;,&quot;sticky&quot;:&quot;top&quot;,&quot;_ha_eqh_enable&quot;:false,&quot;sticky_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;sticky_offset&quot;:0,&quot;sticky_effects_offset&quot;:0}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-2e50391 elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="2e50391" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">ÚLTIMA CHAMADA!</h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-a89146d elementor-countdown--label-block elementor-widget elementor-widget-countdown" data-id="a89146d" data-element_type="widget" data-widget_type="countdown.default">
+				<div class="elementor-widget-container">
+							<div data-evergreen-interval="900" class="elementor-countdown-wrapper" data-date="">
+			<div class="elementor-countdown-item"><span class="elementor-countdown-digits elementor-countdown-minutes"></span> <span class="elementor-countdown-label">Minutes</span></div><div class="elementor-countdown-item"><span class="elementor-countdown-digits elementor-countdown-seconds"></span> <span class="elementor-countdown-label">Seconds</span></div>		</div>
+						</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-dbe4ec7 e-con-full e-flex e-con e-parent" data-id="dbe4ec7" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;_ha_eqh_enable&quot;:false}">
+				<div class="elementor-element elementor-element-ed70d05 elementor-widget elementor-widget-image" data-id="ed70d05" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img fetchpriority="high" decoding="async" width="800" height="272" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20800%20272'%3E%3C/svg%3E" class="attachment-large size-large wp-image-6013" alt="" data-lazy-srcset="https://comunidademyshape.com/wp-content/uploads/2025/09/LOGOS-e1757448101838-1024x348.png 1024w, https://comunidademyshape.com/wp-content/uploads/2025/09/LOGOS-e1757448101838-300x102.png 300w, https://comunidademyshape.com/wp-content/uploads/2025/09/LOGOS-e1757448101838-768x261.png 768w, https://comunidademyshape.com/wp-content/uploads/2025/09/LOGOS-e1757448101838.png 1080w" data-lazy-sizes="(max-width: 800px) 100vw, 800px" data-lazy-src="https://comunidademyshape.com/wp-content/uploads/2025/09/LOGOS-e1757448101838-1024x348.png" /><noscript><img fetchpriority="high" decoding="async" width="800" height="272" src="https://comunidademyshape.com/wp-content/uploads/2025/09/LOGOS-e1757448101838-1024x348.png" class="attachment-large size-large wp-image-6013" alt="" srcset="https://comunidademyshape.com/wp-content/uploads/2025/09/LOGOS-e1757448101838-1024x348.png 1024w, https://comunidademyshape.com/wp-content/uploads/2025/09/LOGOS-e1757448101838-300x102.png 300w, https://comunidademyshape.com/wp-content/uploads/2025/09/LOGOS-e1757448101838-768x261.png 768w, https://comunidademyshape.com/wp-content/uploads/2025/09/LOGOS-e1757448101838.png 1080w" sizes="(max-width: 800px) 100vw, 800px" /></noscript>															</div>
+				</div>
+				<div class="elementor-element elementor-element-c001b42 animated-slow elementor-widget__width-initial elementor-invisible elementor-widget elementor-widget-text-editor" data-id="c001b42" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>Perca gordura e ganhe massa muscular ao mesmo tempo <span style="background-color: transparent;">e obtenha a recomposição corporal.</span></p>								</div>
+				</div>
+				<div class="elementor-element elementor-element-3674c5d elementor-align-center pulsante animated-slow elementor-mobile-align-justify elementor-widget-mobile__width-initial elementor-invisible elementor-widget elementor-widget-button" data-id="3674c5d" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-sm" href="#oferta">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon">
+				<i aria-hidden="true" class="hm hm-fire-flame"></i>			</span>
+									<span class="elementor-button-text">QUERO ACELERAR O SHAPE</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+				<div class="elementor-element elementor-element-9f3977a animated-slow elementor-view-default elementor-invisible elementor-widget elementor-widget-icon" data-id="9f3977a" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;rotateIn&quot;}" data-widget_type="icon.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-icon-wrapper">
+			<div class="elementor-icon">
+			<svg aria-hidden="true" class="e-font-icon-svg e-fas-arrow-down" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M413.1 222.5l22.2 22.2c9.4 9.4 9.4 24.6 0 33.9L241 473c-9.4 9.4-24.6 9.4-33.9 0L12.7 278.6c-9.4-9.4-9.4-24.6 0-33.9l22.2-22.2c9.5-9.5 25-9.3 34.3.4L184 343.4V56c0-13.3 10.7-24 24-24h32c13.3 0 24 10.7 24 24v287.4l114.8-120.5c9.3-9.8 24.8-10 34.3-.4z"></path></svg>			</div>
+		</div>
+						</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-0a2d8bd e-con-full e-flex e-con e-parent" data-id="0a2d8bd" data-element_type="container" data-settings="{&quot;_ha_eqh_enable&quot;:false}">
+				<div class="elementor-element elementor-element-2b96ffb elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="2b96ffb" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;none&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default"><b>Veja quem já viveu essa mudança</b><br> com o Desafio Acelera Shape:</h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-0963202 elementor-widget elementor-widget-image-carousel" data-id="0963202" data-element_type="widget" data-settings="{&quot;slides_to_show&quot;:&quot;5&quot;,&quot;slides_to_scroll&quot;:&quot;1&quot;,&quot;navigation&quot;:&quot;none&quot;,&quot;autoplay_speed&quot;:0,&quot;speed&quot;:5000,&quot;image_spacing_custom&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;slides_to_show_mobile&quot;:&quot;2&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;infinite&quot;:&quot;yes&quot;,&quot;image_spacing_custom_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;image_spacing_custom_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}" data-widget_type="image-carousel.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-image-carousel-wrapper swiper" role="region" aria-roledescription="carousel" aria-label="Carrossel de imagens" dir="ltr">
+			<div class="elementor-image-carousel swiper-wrapper" aria-live="off">
+								<div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="1 de 17"><figure class="swiper-slide-inner"><picture decoding="async" class="swiper-slide-image">
+<source type="image/webp" data-lazy-srcset="https://comunidademyshape.com/wp-content/uploads/2025/09/11.png.webp"/>
+<img decoding="async" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="1(1)" data-lazy-src="https://comunidademyshape.com/wp-content/uploads/2025/09/11.png.webp"/><noscript><img decoding="async" src="https://comunidademyshape.com/wp-content/uploads/2025/09/11.png.webp" alt="1(1)"/></noscript>
+</picture>
+</figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="2 de 17"><figure class="swiper-slide-inner"><img width="1080" height="1350" decoding="async" class="swiper-slide-image" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201080%201350'%3E%3C/svg%3E" alt="2(1)" data-lazy-src="https://comunidademyshape.com/wp-content/uploads/2025/09/21.png" /><noscript><img width="1080" height="1350" decoding="async" class="swiper-slide-image" src="https://comunidademyshape.com/wp-content/uploads/2025/09/21.png" alt="2(1)" /></noscript></figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="3 de 17"><figure class="swiper-slide-inner"><img width="1080" height="1350" decoding="async" class="swiper-slide-image" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201080%201350'%3E%3C/svg%3E" alt="3(2)" data-lazy-src="https://comunidademyshape.com/wp-content/uploads/2025/09/32.png" /><noscript><img width="1080" height="1350" decoding="async" class="swiper-slide-image" src="https://comunidademyshape.com/wp-content/uploads/2025/09/32.png" alt="3(2)" /></noscript></figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="4 de 17"><figure class="swiper-slide-inner"><picture decoding="async" class="swiper-slide-image">
+<source type="image/webp" data-lazy-srcset="https://comunidademyshape.com/wp-content/uploads/2025/09/42.png.webp"/>
+<img decoding="async" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="4(2)" data-lazy-src="https://comunidademyshape.com/wp-content/uploads/2025/09/42.png.webp"/><noscript><img decoding="async" src="https://comunidademyshape.com/wp-content/uploads/2025/09/42.png.webp" alt="4(2)"/></noscript>
+</picture>
+</figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="5 de 17"><figure class="swiper-slide-inner"><img width="1080" height="1350" decoding="async" class="swiper-slide-image" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201080%201350'%3E%3C/svg%3E" alt="5(2)" data-lazy-src="https://comunidademyshape.com/wp-content/uploads/2025/09/52.png" /><noscript><img width="1080" height="1350" decoding="async" class="swiper-slide-image" src="https://comunidademyshape.com/wp-content/uploads/2025/09/52.png" alt="5(2)" /></noscript></figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="6 de 17"><figure class="swiper-slide-inner"><img width="1080" height="1350" decoding="async" class="swiper-slide-image" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201080%201350'%3E%3C/svg%3E" alt="6(1)" data-lazy-src="https://comunidademyshape.com/wp-content/uploads/2025/09/61.png" /><noscript><img width="1080" height="1350" decoding="async" class="swiper-slide-image" src="https://comunidademyshape.com/wp-content/uploads/2025/09/61.png" alt="6(1)" /></noscript></figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="7 de 17"><figure class="swiper-slide-inner"><img width="1080" height="1350" decoding="async" class="swiper-slide-image" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201080%201350'%3E%3C/svg%3E" alt="7" data-lazy-src="https://comunidademyshape.com/wp-content/uploads/2025/09/7.png" /><noscript><img width="1080" height="1350" decoding="async" class="swiper-slide-image" src="https://comunidademyshape.com/wp-content/uploads/2025/09/7.png" alt="7" /></noscript></figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="8 de 17"><figure class="swiper-slide-inner"><picture decoding="async" class="swiper-slide-image">
+<source type="image/webp" data-lazy-srcset="https://comunidademyshape.com/wp-content/uploads/2025/09/8.png.webp"/>
+<img decoding="async" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="8" data-lazy-src="https://comunidademyshape.com/wp-content/uploads/2025/09/8.png.webp"/><noscript><img decoding="async" src="https://comunidademyshape.com/wp-content/uploads/2025/09/8.png.webp" alt="8"/></noscript>
+</picture>
+</figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="9 de 17"><figure class="swiper-slide-inner"><picture decoding="async" class="swiper-slide-image">
+<source type="image/webp" data-lazy-srcset="https://comunidademyshape.com/wp-content/uploads/2025/09/9.png.webp"/>
+<img decoding="async" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="9" data-lazy-src="https://comunidademyshape.com/wp-content/uploads/2025/09/9.png.webp"/><noscript><img decoding="async" src="https://comunidademyshape.com/wp-content/uploads/2025/09/9.png.webp" alt="9"/></noscript>
+</picture>
+</figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="10 de 17"><figure class="swiper-slide-inner"><img width="1080" height="1350" decoding="async" class="swiper-slide-image" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201080%201350'%3E%3C/svg%3E" alt="10" data-lazy-src="https://comunidademyshape.com/wp-content/uploads/2025/09/10.png" /><noscript><img width="1080" height="1350" decoding="async" class="swiper-slide-image" src="https://comunidademyshape.com/wp-content/uploads/2025/09/10.png" alt="10" /></noscript></figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="11 de 17"><figure class="swiper-slide-inner"><img width="1080" height="1350" decoding="async" class="swiper-slide-image" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201080%201350'%3E%3C/svg%3E" alt="11" data-lazy-src="https://comunidademyshape.com/wp-content/uploads/2025/09/11-1.png" /><noscript><img width="1080" height="1350" decoding="async" class="swiper-slide-image" src="https://comunidademyshape.com/wp-content/uploads/2025/09/11-1.png" alt="11" /></noscript></figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="12 de 17"><figure class="swiper-slide-inner"><img width="1080" height="1350" decoding="async" class="swiper-slide-image" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201080%201350'%3E%3C/svg%3E" alt="12" data-lazy-src="https://comunidademyshape.com/wp-content/uploads/2025/09/12.png" /><noscript><img width="1080" height="1350" decoding="async" class="swiper-slide-image" src="https://comunidademyshape.com/wp-content/uploads/2025/09/12.png" alt="12" /></noscript></figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="13 de 17"><figure class="swiper-slide-inner"><img width="1080" height="1350" decoding="async" class="swiper-slide-image" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201080%201350'%3E%3C/svg%3E" alt="13(1)" data-lazy-src="https://comunidademyshape.com/wp-content/uploads/2025/09/131.png" /><noscript><img width="1080" height="1350" decoding="async" class="swiper-slide-image" src="https://comunidademyshape.com/wp-content/uploads/2025/09/131.png" alt="13(1)" /></noscript></figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="14 de 17"><figure class="swiper-slide-inner"><img width="1080" height="1350" decoding="async" class="swiper-slide-image" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201080%201350'%3E%3C/svg%3E" alt="14(1)" data-lazy-src="https://comunidademyshape.com/wp-content/uploads/2025/09/141.png" /><noscript><img width="1080" height="1350" decoding="async" class="swiper-slide-image" src="https://comunidademyshape.com/wp-content/uploads/2025/09/141.png" alt="14(1)" /></noscript></figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="15 de 17"><figure class="swiper-slide-inner"><img width="1080" height="1350" decoding="async" class="swiper-slide-image" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201080%201350'%3E%3C/svg%3E" alt="15(1)" data-lazy-src="https://comunidademyshape.com/wp-content/uploads/2025/09/151.png" /><noscript><img width="1080" height="1350" decoding="async" class="swiper-slide-image" src="https://comunidademyshape.com/wp-content/uploads/2025/09/151.png" alt="15(1)" /></noscript></figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="16 de 17"><figure class="swiper-slide-inner"><img width="1080" height="1350" decoding="async" class="swiper-slide-image" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201080%201350'%3E%3C/svg%3E" alt="16" data-lazy-src="https://comunidademyshape.com/wp-content/uploads/2025/09/16.png" /><noscript><img width="1080" height="1350" decoding="async" class="swiper-slide-image" src="https://comunidademyshape.com/wp-content/uploads/2025/09/16.png" alt="16" /></noscript></figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="17 de 17"><figure class="swiper-slide-inner"><img width="1080" height="1350" decoding="async" class="swiper-slide-image" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201080%201350'%3E%3C/svg%3E" alt="17" data-lazy-src="https://comunidademyshape.com/wp-content/uploads/2025/09/17.png" /><noscript><img width="1080" height="1350" decoding="async" class="swiper-slide-image" src="https://comunidademyshape.com/wp-content/uploads/2025/09/17.png" alt="17" /></noscript></figure></div>			</div>
+							
+									</div>
+						</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-01e3b22 e-con-full e-flex e-con e-parent" data-id="01e3b22" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;_ha_eqh_enable&quot;:false}">
+		<div class="elementor-element elementor-element-d7c376b e-flex e-con-boxed e-con e-child" data-id="d7c376b" data-element_type="container" data-settings="{&quot;_ha_eqh_enable&quot;:false}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-7ff0494 e-con-full e-flex e-con e-child" data-id="7ff0494" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;_ha_eqh_enable&quot;:false}">
+				<div class="elementor-element elementor-element-a5334e6 elementor-widget__width-initial elementor-widget elementor-widget-image" data-id="a5334e6" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img decoding="async" width="740" height="300" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20740%20300'%3E%3C/svg%3E" class="attachment-large size-large wp-image-5120" alt="" data-lazy-src="https://comunidademyshape.com/wp-content/uploads/2025/07/Design-sem-nome.gif" /><noscript><img decoding="async" width="740" height="300" src="https://comunidademyshape.com/wp-content/uploads/2025/07/Design-sem-nome.gif" class="attachment-large size-large wp-image-5120" alt="" /></noscript>															</div>
+				</div>
+				<div class="elementor-element elementor-element-0c867fd elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="0c867fd" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;none&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">30 dias para transformar o shape<br> e a confiança que você merece.</h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-dcd63bf elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="dcd63bf" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;none&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">E todo mundo vai notar a diferença!</h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-4db9c8e elementor-align-left animated-slow elementor-widget__width-initial elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="4db9c8e" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;none&quot;}" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+							<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<svg aria-hidden="true" class="e-font-icon-svg e-fas-check" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path></svg>						</span>
+										<span class="elementor-icon-list-text">Corpo mais leve, definido e desinflamado, com menos inchaço e gordura.</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<svg aria-hidden="true" class="e-font-icon-svg e-fas-check" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path></svg>						</span>
+										<span class="elementor-icon-list-text">Mais disposição e energia pra viver sem o peso do cansaço.</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<svg aria-hidden="true" class="e-font-icon-svg e-fas-check" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path></svg>						</span>
+										<span class="elementor-icon-list-text"> Relação equilibrada com a comida, sem culpa.</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<svg aria-hidden="true" class="e-font-icon-svg e-fas-check" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path></svg>						</span>
+										<span class="elementor-icon-list-text"> Chega de efeito sanfona — é uma virada real na sua vida.</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<svg aria-hidden="true" class="e-font-icon-svg e-fas-check" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path></svg>						</span>
+										<span class="elementor-icon-list-text">Confiança pra se orgulhar do que vê no espelho.</span>
+									</li>
+						</ul>
+						</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-5cb8396 elementor-widget__width-initial elementor-invisible elementor-widget elementor-widget-heading" data-id="5cb8396" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;lightSpeedIn&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default"><br><span style="color: #F15F00">Garantindo sua vaga hoje<br></span> 
+você terá acesso a tudo isso...</h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-cef2b7c elementor-widget__width-initial elementor-view-default elementor-position-top elementor-mobile-position-top elementor-widget elementor-widget-icon-box" data-id="cef2b7c" data-element_type="widget" data-settings="{&quot;motion_fx_motion_fx_scrolling&quot;:&quot;yes&quot;,&quot;motion_fx_translateY_effect&quot;:&quot;yes&quot;,&quot;motion_fx_translateY_affectedRange&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:{&quot;start&quot;:0,&quot;end&quot;:49}},&quot;motion_fx_translateY_speed&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:4,&quot;sizes&quot;:[]},&quot;motion_fx_devices&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]}" data-widget_type="icon-box.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-icon-box-wrapper">
+
+						<div class="elementor-icon-box-icon">
+				<span  class="elementor-icon">
+				<svg aria-hidden="true" class="e-font-icon-svg e-fas-users" viewBox="0 0 640 512" xmlns="http://www.w3.org/2000/svg"><path d="M96 224c35.3 0 64-28.7 64-64s-28.7-64-64-64-64 28.7-64 64 28.7 64 64 64zm448 0c35.3 0 64-28.7 64-64s-28.7-64-64-64-64 28.7-64 64 28.7 64 64 64zm32 32h-64c-17.6 0-33.5 7.1-45.1 18.6 40.3 22.1 68.9 62 75.1 109.4h66c17.7 0 32-14.3 32-32v-32c0-35.3-28.7-64-64-64zm-256 0c61.9 0 112-50.1 112-112S381.9 32 320 32 208 82.1 208 144s50.1 112 112 112zm76.8 32h-8.3c-20.8 10-43.9 16-68.5 16s-47.6-6-68.5-16h-8.3C179.6 288 128 339.6 128 403.2V432c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48v-28.8c0-63.6-51.6-115.2-115.2-115.2zm-223.7-13.4C161.5 263.1 145.6 256 128 256H64c-35.3 0-64 28.7-64 64v32c0 17.7 14.3 32 32 32h65.9c6.3-47.4 34.9-87.3 75.2-109.4z"></path></svg>				</span>
+			</div>
+			
+						<div class="elementor-icon-box-content">
+
+									<h3 class="elementor-icon-box-title">
+						<span  >
+							60 dias de acompanhamento nutricional						</span>
+					</h3>
+				
+									<p class="elementor-icon-box-description">
+						e suporte via WhatsApp.					</p>
+				
+			</div>
+			
+		</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-09088e5 elementor-widget__width-initial elementor-view-default elementor-position-top elementor-mobile-position-top elementor-widget elementor-widget-icon-box" data-id="09088e5" data-element_type="widget" data-settings="{&quot;motion_fx_motion_fx_scrolling&quot;:&quot;yes&quot;,&quot;motion_fx_translateY_effect&quot;:&quot;yes&quot;,&quot;motion_fx_translateY_affectedRange&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:{&quot;start&quot;:0,&quot;end&quot;:49}},&quot;motion_fx_translateY_speed&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:4,&quot;sizes&quot;:[]},&quot;motion_fx_devices&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]}" data-widget_type="icon-box.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-icon-box-wrapper">
+
+						<div class="elementor-icon-box-icon">
+				<span  class="elementor-icon">
+				<i aria-hidden="true" class="xlwpf wppb-font-salad"></i>				</span>
+			</div>
+			
+						<div class="elementor-icon-box-content">
+
+									<h3 class="elementor-icon-box-title">
+						<span  >
+							Protocolo alimentar individualizado						</span>
+					</h3>
+				
+									<p class="elementor-icon-box-description">
+						Um plano alimentar estratégico para potencializar seus resultados.					</p>
+				
+			</div>
+			
+		</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-6356330 elementor-widget__width-initial elementor-view-default elementor-position-top elementor-mobile-position-top elementor-widget elementor-widget-icon-box" data-id="6356330" data-element_type="widget" data-settings="{&quot;motion_fx_motion_fx_scrolling&quot;:&quot;yes&quot;,&quot;motion_fx_translateY_effect&quot;:&quot;yes&quot;,&quot;motion_fx_translateY_affectedRange&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:{&quot;start&quot;:0,&quot;end&quot;:49}},&quot;motion_fx_translateY_speed&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:4,&quot;sizes&quot;:[]},&quot;motion_fx_devices&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]}" data-widget_type="icon-box.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-icon-box-wrapper">
+
+						<div class="elementor-icon-box-icon">
+				<span  class="elementor-icon">
+				<svg aria-hidden="true" class="e-font-icon-svg e-fas-apple-alt" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M350.85 129c25.97 4.67 47.27 18.67 63.92 42 14.65 20.67 24.64 46.67 29.96 78 4.67 28.67 4.32 57.33-1 86-7.99 47.33-23.97 87-47.94 119-28.64 38.67-64.59 58-107.87 58-10.66 0-22.3-3.33-34.96-10-8.66-5.33-18.31-8-28.97-8s-20.3 2.67-28.97 8c-12.66 6.67-24.3 10-34.96 10-43.28 0-79.23-19.33-107.87-58-23.97-32-39.95-71.67-47.94-119-5.32-28.67-5.67-57.33-1-86 5.32-31.33 15.31-57.33 29.96-78 16.65-23.33 37.95-37.33 63.92-42 15.98-2.67 37.95-.33 65.92 7 23.97 6.67 44.28 14.67 60.93 24 16.65-9.33 36.96-17.33 60.93-24 27.98-7.33 49.96-9.67 65.94-7zm-54.94-41c-9.32 8.67-21.65 15-36.96 19-10.66 3.33-22.3 5-34.96 5l-14.98-1c-1.33-9.33-1.33-20 0-32 2.67-24 10.32-42.33 22.97-55 9.32-8.67 21.65-15 36.96-19 10.66-3.33 22.3-5 34.96-5l14.98 1 1 15c0 12.67-1.67 24.33-4.99 35-3.99 15.33-10.31 27.67-18.98 37z"></path></svg>				</span>
+			</div>
+			
+						<div class="elementor-icon-box-content">
+
+									<h3 class="elementor-icon-box-title">
+						<span  >
+							 Preparação dos Alimentos 						</span>
+					</h3>
+				
+									<p class="elementor-icon-box-description">
+						Técnicas e dicas para facilitar a sua alimentação no dia a dia.					</p>
+				
+			</div>
+			
+		</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-dbcf2db elementor-widget__width-initial elementor-view-default elementor-position-top elementor-mobile-position-top elementor-widget elementor-widget-icon-box" data-id="dbcf2db" data-element_type="widget" data-settings="{&quot;motion_fx_motion_fx_scrolling&quot;:&quot;yes&quot;,&quot;motion_fx_translateY_effect&quot;:&quot;yes&quot;,&quot;motion_fx_translateY_affectedRange&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:{&quot;start&quot;:0,&quot;end&quot;:49}},&quot;motion_fx_translateY_speed&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:4,&quot;sizes&quot;:[]},&quot;motion_fx_devices&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]}" data-widget_type="icon-box.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-icon-box-wrapper">
+
+						<div class="elementor-icon-box-icon">
+				<span  class="elementor-icon">
+				<i aria-hidden="true" class="rtmicon-thin rtmicon-body-building"></i>				</span>
+			</div>
+			
+						<div class="elementor-icon-box-content">
+
+									<h3 class="elementor-icon-box-title">
+						<span  >
+							Treino na academia ou em casa						</span>
+					</h3>
+				
+									<p class="elementor-icon-box-description">
+						com foco em baixar o % de gordura e aumentar a definição corporal.					</p>
+				
+			</div>
+			
+		</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-918cb57 elementor-widget__width-initial elementor-view-default elementor-position-top elementor-mobile-position-top elementor-widget elementor-widget-icon-box" data-id="918cb57" data-element_type="widget" data-settings="{&quot;motion_fx_motion_fx_scrolling&quot;:&quot;yes&quot;,&quot;motion_fx_translateY_effect&quot;:&quot;yes&quot;,&quot;motion_fx_translateY_affectedRange&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:{&quot;start&quot;:0,&quot;end&quot;:49}},&quot;motion_fx_translateY_speed&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:4,&quot;sizes&quot;:[]},&quot;motion_fx_devices&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]}" data-widget_type="icon-box.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-icon-box-wrapper">
+
+						<div class="elementor-icon-box-icon">
+				<span  class="elementor-icon">
+				<i aria-hidden="true" class="xlcpt xlcaptain-360"></i>				</span>
+			</div>
+			
+						<div class="elementor-icon-box-content">
+
+									<h3 class="elementor-icon-box-title">
+						<span  >
+							Lista de Suplementação						</span>
+					</h3>
+				
+									<p class="elementor-icon-box-description">
+						Uso inteligente de suplementos para aumentar seu desempenho e saúde.					</p>
+				
+			</div>
+			
+		</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-d086776 elementor-widget__width-initial elementor-view-default elementor-position-top elementor-mobile-position-top elementor-widget elementor-widget-icon-box" data-id="d086776" data-element_type="widget" data-settings="{&quot;motion_fx_motion_fx_scrolling&quot;:&quot;yes&quot;,&quot;motion_fx_translateY_effect&quot;:&quot;yes&quot;,&quot;motion_fx_translateY_affectedRange&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:{&quot;start&quot;:0,&quot;end&quot;:49}},&quot;motion_fx_translateY_speed&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:4,&quot;sizes&quot;:[]},&quot;motion_fx_devices&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]}" data-widget_type="icon-box.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-icon-box-wrapper">
+
+						<div class="elementor-icon-box-icon">
+				<span  class="elementor-icon">
+				<i aria-hidden="true" class="hm hm-muscle"></i>				</span>
+			</div>
+			
+						<div class="elementor-icon-box-content">
+
+									<h3 class="elementor-icon-box-title">
+						<span  >
+							Organização e Planejamento na Dieta						</span>
+					</h3>
+				
+									<p class="elementor-icon-box-description">
+						Métodos para manter a constância e evitar deslizes.					</p>
+				
+			</div>
+			
+		</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-8c9d063 elementor-widget__width-initial elementor-view-default elementor-position-top elementor-mobile-position-top elementor-widget elementor-widget-icon-box" data-id="8c9d063" data-element_type="widget" data-settings="{&quot;motion_fx_motion_fx_scrolling&quot;:&quot;yes&quot;,&quot;motion_fx_translateY_effect&quot;:&quot;yes&quot;,&quot;motion_fx_translateY_affectedRange&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:{&quot;start&quot;:0,&quot;end&quot;:49}},&quot;motion_fx_translateY_speed&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:4,&quot;sizes&quot;:[]},&quot;motion_fx_devices&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]}" data-widget_type="icon-box.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-icon-box-wrapper">
+
+						<div class="elementor-icon-box-icon">
+				<span  class="elementor-icon">
+				<svg aria-hidden="true" class="e-font-icon-svg e-fas-street-view" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M367.9 329.76c-4.62 5.3-9.78 10.1-15.9 13.65v22.94c66.52 9.34 112 28.05 112 49.65 0 30.93-93.12 56-208 56S48 446.93 48 416c0-21.6 45.48-40.3 112-49.65v-22.94c-6.12-3.55-11.28-8.35-15.9-13.65C58.87 345.34 0 378.05 0 416c0 53.02 114.62 96 256 96s256-42.98 256-96c0-37.95-58.87-70.66-144.1-86.24zM256 128c35.35 0 64-28.65 64-64S291.35 0 256 0s-64 28.65-64 64 28.65 64 64 64zm-64 192v96c0 17.67 14.33 32 32 32h64c17.67 0 32-14.33 32-32v-96c17.67 0 32-14.33 32-32v-96c0-26.51-21.49-48-48-48h-11.8c-11.07 5.03-23.26 8-36.2 8s-25.13-2.97-36.2-8H208c-26.51 0-48 21.49-48 48v96c0 17.67 14.33 32 32 32z"></path></svg>				</span>
+			</div>
+			
+						<div class="elementor-icon-box-content">
+
+									<h3 class="elementor-icon-box-title">
+						<span  >
+							Saúde Intestinal						</span>
+					</h3>
+				
+									<p class="elementor-icon-box-description">
+						Foco na digestão e absorção de nutrientes para um corpo equilibrado.					</p>
+				
+			</div>
+			
+		</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-4b3dc6f elementor-widget__width-initial elementor-invisible elementor-widget elementor-widget-heading" data-id="4b3dc6f" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;zoomIn&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Plataforma <span style="color: #F15F00">premium</span></h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-ea996d5 animated-slow elementor-widget elementor-widget-image" data-id="ea996d5" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;none&quot;}" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img decoding="async" width="800" height="374" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20800%20374'%3E%3C/svg%3E" class="attachment-large size-large wp-image-5103" alt="" data-lazy-srcset="https://comunidademyshape.com/wp-content/uploads/2025/07/MOCKUP-SITE-INSTITUCIONAL-RECIFE-CARNES-e1752108069380-1024x479.png 1024w, https://comunidademyshape.com/wp-content/uploads/2025/07/MOCKUP-SITE-INSTITUCIONAL-RECIFE-CARNES-e1752108069380-300x140.png 300w, https://comunidademyshape.com/wp-content/uploads/2025/07/MOCKUP-SITE-INSTITUCIONAL-RECIFE-CARNES-e1752108069380-768x359.png 768w, https://comunidademyshape.com/wp-content/uploads/2025/07/MOCKUP-SITE-INSTITUCIONAL-RECIFE-CARNES-e1752108069380-1536x719.png 1536w, https://comunidademyshape.com/wp-content/uploads/2025/07/MOCKUP-SITE-INSTITUCIONAL-RECIFE-CARNES-e1752108069380-2048x958.png 2048w" data-lazy-sizes="(max-width: 800px) 100vw, 800px" data-lazy-src="https://comunidademyshape.com/wp-content/uploads/2025/07/MOCKUP-SITE-INSTITUCIONAL-RECIFE-CARNES-e1752108069380-1024x479.png" /><noscript><img decoding="async" width="800" height="374" src="https://comunidademyshape.com/wp-content/uploads/2025/07/MOCKUP-SITE-INSTITUCIONAL-RECIFE-CARNES-e1752108069380-1024x479.png" class="attachment-large size-large wp-image-5103" alt="" srcset="https://comunidademyshape.com/wp-content/uploads/2025/07/MOCKUP-SITE-INSTITUCIONAL-RECIFE-CARNES-e1752108069380-1024x479.png 1024w, https://comunidademyshape.com/wp-content/uploads/2025/07/MOCKUP-SITE-INSTITUCIONAL-RECIFE-CARNES-e1752108069380-300x140.png 300w, https://comunidademyshape.com/wp-content/uploads/2025/07/MOCKUP-SITE-INSTITUCIONAL-RECIFE-CARNES-e1752108069380-768x359.png 768w, https://comunidademyshape.com/wp-content/uploads/2025/07/MOCKUP-SITE-INSTITUCIONAL-RECIFE-CARNES-e1752108069380-1536x719.png 1536w, https://comunidademyshape.com/wp-content/uploads/2025/07/MOCKUP-SITE-INSTITUCIONAL-RECIFE-CARNES-e1752108069380-2048x958.png 2048w" sizes="(max-width: 800px) 100vw, 800px" /></noscript>															</div>
+				</div>
+				<div class="elementor-element elementor-element-82117fd elementor-align-center pulsante animated-slow elementor-mobile-align-justify elementor-widget-mobile__width-initial elementor-invisible elementor-widget elementor-widget-button" data-id="82117fd" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-sm" href="#oferta">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">QUERO ACELERAR O SHAPE</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+					</div>
+				</div>
+				<div class="elementor-element elementor-element-42676bd elementor-view-default elementor-invisible elementor-widget elementor-widget-icon" data-id="42676bd" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;bounce&quot;,&quot;_animation_mobile&quot;:&quot;bounce&quot;}" data-widget_type="icon.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-icon-wrapper">
+			<div class="elementor-icon">
+			<svg aria-hidden="true" class="e-font-icon-svg e-fas-angle-double-down" viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg"><path d="M143 256.3L7 120.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0L313 86.3c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.4 9.5-24.6 9.5-34 .1zm34 192l136-136c9.4-9.4 9.4-24.6 0-33.9l-22.6-22.6c-9.4-9.4-24.6-9.4-33.9 0L160 352.1l-96.4-96.4c-9.4-9.4-24.6-9.4-33.9 0L7 278.3c-9.4 9.4-9.4 24.6 0 33.9l136 136c9.4 9.5 24.6 9.5 34 .1z"></path></svg>			</div>
+		</div>
+						</div>
+				</div>
+		<div class="elementor-element elementor-element-8f14626 e-con-full e-flex e-con e-child" data-id="8f14626" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;_ha_eqh_enable&quot;:false}">
+				<div class="elementor-element elementor-element-a7c55e7 elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="a7c55e7" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;none&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Além disso, ganhará <span style="color: #fc1606">7 super bônus</span> <br>para potencializar e acelerar <br>a sua transformação...</h2>				</div>
+				</div>
+		<div class="elementor-element elementor-element-acf452b e-con-full e-flex e-con e-child" data-id="acf452b" data-element_type="container" data-settings="{&quot;_ha_eqh_enable&quot;:false}">
+				<div class="elementor-element elementor-element-ba2cf06 elementor-widget elementor-widget-image" data-id="ba2cf06" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img decoding="async" width="751" height="1024" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20751%201024'%3E%3C/svg%3E" class="elementor-animation-grow attachment-large size-large wp-image-5146" alt="" data-lazy-srcset="https://comunidademyshape.com/wp-content/uploads/2025/07/PROTOCOLO-DESINFLAMA-e1752117081484-751x1024.png 751w, https://comunidademyshape.com/wp-content/uploads/2025/07/PROTOCOLO-DESINFLAMA-e1752117081484-220x300.png 220w, https://comunidademyshape.com/wp-content/uploads/2025/07/PROTOCOLO-DESINFLAMA-e1752117081484-768x1048.png 768w, https://comunidademyshape.com/wp-content/uploads/2025/07/PROTOCOLO-DESINFLAMA-e1752117081484.png 1126w" data-lazy-sizes="(max-width: 751px) 100vw, 751px" data-lazy-src="https://comunidademyshape.com/wp-content/uploads/2025/07/PROTOCOLO-DESINFLAMA-e1752117081484-751x1024.png" /><noscript><img loading="lazy" decoding="async" width="751" height="1024" src="https://comunidademyshape.com/wp-content/uploads/2025/07/PROTOCOLO-DESINFLAMA-e1752117081484-751x1024.png" class="elementor-animation-grow attachment-large size-large wp-image-5146" alt="" srcset="https://comunidademyshape.com/wp-content/uploads/2025/07/PROTOCOLO-DESINFLAMA-e1752117081484-751x1024.png 751w, https://comunidademyshape.com/wp-content/uploads/2025/07/PROTOCOLO-DESINFLAMA-e1752117081484-220x300.png 220w, https://comunidademyshape.com/wp-content/uploads/2025/07/PROTOCOLO-DESINFLAMA-e1752117081484-768x1048.png 768w, https://comunidademyshape.com/wp-content/uploads/2025/07/PROTOCOLO-DESINFLAMA-e1752117081484.png 1126w" sizes="(max-width: 751px) 100vw, 751px" /></noscript>															</div>
+				</div>
+				<div class="elementor-element elementor-element-e7d43eb elementor-widget elementor-widget-image" data-id="e7d43eb" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img decoding="async" width="741" height="1024" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20741%201024'%3E%3C/svg%3E" class="elementor-animation-grow attachment-large size-large wp-image-5139" alt="" data-lazy-srcset="https://comunidademyshape.com/wp-content/uploads/2025/07/PROTOCOLO-DESINFLAMA-1-e1752115596648-741x1024.png 741w, https://comunidademyshape.com/wp-content/uploads/2025/07/PROTOCOLO-DESINFLAMA-1-e1752115596648-217x300.png 217w, https://comunidademyshape.com/wp-content/uploads/2025/07/PROTOCOLO-DESINFLAMA-1-e1752115596648-768x1062.png 768w, https://comunidademyshape.com/wp-content/uploads/2025/07/PROTOCOLO-DESINFLAMA-1-e1752115596648-1111x1536.png 1111w, https://comunidademyshape.com/wp-content/uploads/2025/07/PROTOCOLO-DESINFLAMA-1-e1752115596648.png 1117w" data-lazy-sizes="(max-width: 741px) 100vw, 741px" data-lazy-src="https://comunidademyshape.com/wp-content/uploads/2025/07/PROTOCOLO-DESINFLAMA-1-e1752115596648-741x1024.png" /><noscript><img loading="lazy" decoding="async" width="741" height="1024" src="https://comunidademyshape.com/wp-content/uploads/2025/07/PROTOCOLO-DESINFLAMA-1-e1752115596648-741x1024.png" class="elementor-animation-grow attachment-large size-large wp-image-5139" alt="" srcset="https://comunidademyshape.com/wp-content/uploads/2025/07/PROTOCOLO-DESINFLAMA-1-e1752115596648-741x1024.png 741w, https://comunidademyshape.com/wp-content/uploads/2025/07/PROTOCOLO-DESINFLAMA-1-e1752115596648-217x300.png 217w, https://comunidademyshape.com/wp-content/uploads/2025/07/PROTOCOLO-DESINFLAMA-1-e1752115596648-768x1062.png 768w, https://comunidademyshape.com/wp-content/uploads/2025/07/PROTOCOLO-DESINFLAMA-1-e1752115596648-1111x1536.png 1111w, https://comunidademyshape.com/wp-content/uploads/2025/07/PROTOCOLO-DESINFLAMA-1-e1752115596648.png 1117w" sizes="(max-width: 741px) 100vw, 741px" /></noscript>															</div>
+				</div>
+				<div class="elementor-element elementor-element-a39b140 elementor-widget elementor-widget-image" data-id="a39b140" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img decoding="async" width="745" height="1024" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20745%201024'%3E%3C/svg%3E" class="elementor-animation-grow attachment-large size-large wp-image-5141" alt="" data-lazy-srcset="https://comunidademyshape.com/wp-content/uploads/2025/07/Protocolo-Celulite-Nunca-Mais.pdf-e1752116820601-745x1024.png 745w, https://comunidademyshape.com/wp-content/uploads/2025/07/Protocolo-Celulite-Nunca-Mais.pdf-e1752116820601-218x300.png 218w, https://comunidademyshape.com/wp-content/uploads/2025/07/Protocolo-Celulite-Nunca-Mais.pdf-e1752116820601-768x1056.png 768w, https://comunidademyshape.com/wp-content/uploads/2025/07/Protocolo-Celulite-Nunca-Mais.pdf-e1752116820601.png 1117w" data-lazy-sizes="(max-width: 745px) 100vw, 745px" data-lazy-src="https://comunidademyshape.com/wp-content/uploads/2025/07/Protocolo-Celulite-Nunca-Mais.pdf-e1752116820601-745x1024.png" /><noscript><img loading="lazy" decoding="async" width="745" height="1024" src="https://comunidademyshape.com/wp-content/uploads/2025/07/Protocolo-Celulite-Nunca-Mais.pdf-e1752116820601-745x1024.png" class="elementor-animation-grow attachment-large size-large wp-image-5141" alt="" srcset="https://comunidademyshape.com/wp-content/uploads/2025/07/Protocolo-Celulite-Nunca-Mais.pdf-e1752116820601-745x1024.png 745w, https://comunidademyshape.com/wp-content/uploads/2025/07/Protocolo-Celulite-Nunca-Mais.pdf-e1752116820601-218x300.png 218w, https://comunidademyshape.com/wp-content/uploads/2025/07/Protocolo-Celulite-Nunca-Mais.pdf-e1752116820601-768x1056.png 768w, https://comunidademyshape.com/wp-content/uploads/2025/07/Protocolo-Celulite-Nunca-Mais.pdf-e1752116820601.png 1117w" sizes="(max-width: 745px) 100vw, 745px" /></noscript>															</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-97f2efc e-con-full e-flex e-con e-child" data-id="97f2efc" data-element_type="container" data-settings="{&quot;_ha_eqh_enable&quot;:false}">
+				<div class="elementor-element elementor-element-c783446 elementor-widget elementor-widget-image" data-id="c783446" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img decoding="async" width="733" height="1024" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20733%201024'%3E%3C/svg%3E" class="elementor-animation-grow attachment-large size-large wp-image-5184" alt="" data-lazy-srcset="https://comunidademyshape.com/wp-content/uploads/2025/07/200-receitas-irresistiveis-e1752147076330-733x1024.png 733w, https://comunidademyshape.com/wp-content/uploads/2025/07/200-receitas-irresistiveis-e1752147076330-215x300.png 215w, https://comunidademyshape.com/wp-content/uploads/2025/07/200-receitas-irresistiveis-e1752147076330-768x1073.png 768w, https://comunidademyshape.com/wp-content/uploads/2025/07/200-receitas-irresistiveis-e1752147076330-1099x1536.png 1099w, https://comunidademyshape.com/wp-content/uploads/2025/07/200-receitas-irresistiveis-e1752147076330.png 1105w" data-lazy-sizes="(max-width: 733px) 100vw, 733px" data-lazy-src="https://comunidademyshape.com/wp-content/uploads/2025/07/200-receitas-irresistiveis-e1752147076330-733x1024.png" /><noscript><img loading="lazy" decoding="async" width="733" height="1024" src="https://comunidademyshape.com/wp-content/uploads/2025/07/200-receitas-irresistiveis-e1752147076330-733x1024.png" class="elementor-animation-grow attachment-large size-large wp-image-5184" alt="" srcset="https://comunidademyshape.com/wp-content/uploads/2025/07/200-receitas-irresistiveis-e1752147076330-733x1024.png 733w, https://comunidademyshape.com/wp-content/uploads/2025/07/200-receitas-irresistiveis-e1752147076330-215x300.png 215w, https://comunidademyshape.com/wp-content/uploads/2025/07/200-receitas-irresistiveis-e1752147076330-768x1073.png 768w, https://comunidademyshape.com/wp-content/uploads/2025/07/200-receitas-irresistiveis-e1752147076330-1099x1536.png 1099w, https://comunidademyshape.com/wp-content/uploads/2025/07/200-receitas-irresistiveis-e1752147076330.png 1105w" sizes="(max-width: 733px) 100vw, 733px" /></noscript>															</div>
+				</div>
+				<div class="elementor-element elementor-element-79e9c45 elementor-widget elementor-widget-image" data-id="79e9c45" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img decoding="async" width="739" height="1024" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20739%201024'%3E%3C/svg%3E" class="elementor-animation-grow attachment-large size-large wp-image-5186" alt="" data-lazy-srcset="https://comunidademyshape.com/wp-content/uploads/2025/07/Protocolo-Shape-Mewtwo-e1752147172454-739x1024.png 739w, https://comunidademyshape.com/wp-content/uploads/2025/07/Protocolo-Shape-Mewtwo-e1752147172454-217x300.png 217w, https://comunidademyshape.com/wp-content/uploads/2025/07/Protocolo-Shape-Mewtwo-e1752147172454-768x1064.png 768w, https://comunidademyshape.com/wp-content/uploads/2025/07/Protocolo-Shape-Mewtwo-e1752147172454.png 1109w" data-lazy-sizes="(max-width: 739px) 100vw, 739px" data-lazy-src="https://comunidademyshape.com/wp-content/uploads/2025/07/Protocolo-Shape-Mewtwo-e1752147172454-739x1024.png" /><noscript><img loading="lazy" decoding="async" width="739" height="1024" src="https://comunidademyshape.com/wp-content/uploads/2025/07/Protocolo-Shape-Mewtwo-e1752147172454-739x1024.png" class="elementor-animation-grow attachment-large size-large wp-image-5186" alt="" srcset="https://comunidademyshape.com/wp-content/uploads/2025/07/Protocolo-Shape-Mewtwo-e1752147172454-739x1024.png 739w, https://comunidademyshape.com/wp-content/uploads/2025/07/Protocolo-Shape-Mewtwo-e1752147172454-217x300.png 217w, https://comunidademyshape.com/wp-content/uploads/2025/07/Protocolo-Shape-Mewtwo-e1752147172454-768x1064.png 768w, https://comunidademyshape.com/wp-content/uploads/2025/07/Protocolo-Shape-Mewtwo-e1752147172454.png 1109w" sizes="(max-width: 739px) 100vw, 739px" /></noscript>															</div>
+				</div>
+				<div class="elementor-element elementor-element-796b0b8 elementor-widget elementor-widget-image" data-id="796b0b8" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img decoding="async" width="624" height="1024" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20624%201024'%3E%3C/svg%3E" class="elementor-animation-grow attachment-large size-large wp-image-5187" alt="" data-lazy-srcset="https://comunidademyshape.com/wp-content/uploads/2025/07/grupo-vip-e1752148549270-624x1024.png 624w, https://comunidademyshape.com/wp-content/uploads/2025/07/grupo-vip-e1752148549270-183x300.png 183w, https://comunidademyshape.com/wp-content/uploads/2025/07/grupo-vip-e1752148549270-768x1259.png 768w, https://comunidademyshape.com/wp-content/uploads/2025/07/grupo-vip-e1752148549270.png 866w" data-lazy-sizes="(max-width: 624px) 100vw, 624px" data-lazy-src="https://comunidademyshape.com/wp-content/uploads/2025/07/grupo-vip-e1752148549270-624x1024.png" /><noscript><img loading="lazy" decoding="async" width="624" height="1024" src="https://comunidademyshape.com/wp-content/uploads/2025/07/grupo-vip-e1752148549270-624x1024.png" class="elementor-animation-grow attachment-large size-large wp-image-5187" alt="" srcset="https://comunidademyshape.com/wp-content/uploads/2025/07/grupo-vip-e1752148549270-624x1024.png 624w, https://comunidademyshape.com/wp-content/uploads/2025/07/grupo-vip-e1752148549270-183x300.png 183w, https://comunidademyshape.com/wp-content/uploads/2025/07/grupo-vip-e1752148549270-768x1259.png 768w, https://comunidademyshape.com/wp-content/uploads/2025/07/grupo-vip-e1752148549270.png 866w" sizes="(max-width: 624px) 100vw, 624px" /></noscript>															</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-d7d7d18 e-con-full e-flex e-con e-child" data-id="d7d7d18" data-element_type="container" data-settings="{&quot;_ha_eqh_enable&quot;:false}">
+				<div class="elementor-element elementor-element-0c8dc2d elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="0c8dc2d" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;none&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">+ Suporte especializado </h2>				</div>
+				</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-d311c19 elementor-view-default elementor-invisible elementor-widget elementor-widget-icon" data-id="d311c19" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;bounce&quot;,&quot;_animation_mobile&quot;:&quot;bounce&quot;}" data-widget_type="icon.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-icon-wrapper">
+			<div class="elementor-icon">
+			<svg aria-hidden="true" class="e-font-icon-svg e-fas-angle-double-down" viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg"><path d="M143 256.3L7 120.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0L313 86.3c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.4 9.5-24.6 9.5-34 .1zm34 192l136-136c9.4-9.4 9.4-24.6 0-33.9l-22.6-22.6c-9.4-9.4-24.6-9.4-33.9 0L160 352.1l-96.4-96.4c-9.4-9.4-24.6-9.4-33.9 0L7 278.3c-9.4 9.4-9.4 24.6 0 33.9l136 136c9.4 9.5 24.6 9.5 34 .1z"></path></svg>			</div>
+		</div>
+						</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-a96e19e e-con-full oferta e-flex e-con e-parent" data-id="a96e19e" data-element_type="container" id="oferta" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;_ha_eqh_enable&quot;:false}">
+		<div class="elementor-element elementor-element-feae1fa e-con-full e-flex e-con e-child" data-id="feae1fa" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;_ha_eqh_enable&quot;:false}">
+				<div class="elementor-element elementor-element-23106c0 elementor-widget elementor-widget-image" data-id="23106c0" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img decoding="async" width="550" height="392" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20550%20392'%3E%3C/svg%3E" class="attachment-large size-large wp-image-5207" alt="" data-lazy-srcset="https://comunidademyshape.com/wp-content/uploads/2025/07/Oferta1.png 550w, https://comunidademyshape.com/wp-content/uploads/2025/07/Oferta1-300x214.png 300w" data-lazy-sizes="(max-width: 550px) 100vw, 550px" data-lazy-src="https://comunidademyshape.com/wp-content/uploads/2025/07/Oferta1.png" /><noscript><img loading="lazy" decoding="async" width="550" height="392" src="https://comunidademyshape.com/wp-content/uploads/2025/07/Oferta1.png" class="attachment-large size-large wp-image-5207" alt="" srcset="https://comunidademyshape.com/wp-content/uploads/2025/07/Oferta1.png 550w, https://comunidademyshape.com/wp-content/uploads/2025/07/Oferta1-300x214.png 300w" sizes="(max-width: 550px) 100vw, 550px" /></noscript>															</div>
+				</div>
+				<div class="elementor-element elementor-element-ed0a501 animated-slow elementor-widget elementor-widget-text-editor" data-id="ed0a501" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;none&quot;}" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<ul class="elementor-icon-list-items"><li class="elementor-icon-list-item"><strong><span class="elementor-icon-list-text"><img decoding="async" class="emoji" role="img" draggable="false" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="✅" data-lazy-src="https://s.w.org/images/core/emoji/14.0.0/svg/2705.svg" /><noscript><img decoding="async" class="emoji" role="img" draggable="false" src="https://s.w.org/images/core/emoji/14.0.0/svg/2705.svg" alt="✅" /></noscript> 60 dias de acompanhamento nutricional</span></strong></li><li class="elementor-icon-list-item"><strong><span class="elementor-icon-list-text"><img decoding="async" class="emoji" role="img" draggable="false" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="✅" data-lazy-src="https://s.w.org/images/core/emoji/14.0.0/svg/2705.svg" /><noscript><img decoding="async" class="emoji" role="img" draggable="false" src="https://s.w.org/images/core/emoji/14.0.0/svg/2705.svg" alt="✅" /></noscript> Acesso ao Protocolo alimentar individualizado</span></strong></li><li class="elementor-icon-list-item"><strong><span class="elementor-icon-list-text"><img decoding="async" class="emoji" role="img" draggable="false" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="✅" data-lazy-src="https://s.w.org/images/core/emoji/14.0.0/svg/2705.svg" /><noscript><img decoding="async" class="emoji" role="img" draggable="false" src="https://s.w.org/images/core/emoji/14.0.0/svg/2705.svg" alt="✅" /></noscript> Acesso aos Treinos na academia ou em casa</span></strong></li><li class="elementor-icon-list-item"><strong><span class="elementor-icon-list-text"><img decoding="async" class="emoji" role="img" draggable="false" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="✅" data-lazy-src="https://s.w.org/images/core/emoji/14.0.0/svg/2705.svg" /><noscript><img decoding="async" class="emoji" role="img" draggable="false" src="https://s.w.org/images/core/emoji/14.0.0/svg/2705.svg" alt="✅" /></noscript> Acesso a Lista de Suplementação</span></strong></li><li class="elementor-icon-list-item"><strong><span class="elementor-icon-list-text"><img decoding="async" class="emoji" role="img" draggable="false" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="✅" data-lazy-src="https://s.w.org/images/core/emoji/14.0.0/svg/2705.svg" /><noscript><img decoding="async" class="emoji" role="img" draggable="false" src="https://s.w.org/images/core/emoji/14.0.0/svg/2705.svg" alt="✅" /></noscript> Acesso aos Aplicativo para IOS ou android</span></strong></li><li class="elementor-icon-list-item"><strong><span class="elementor-icon-list-text"><img decoding="async" class="emoji" role="img" draggable="false" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="✅" data-lazy-src="https://s.w.org/images/core/emoji/14.0.0/svg/2705.svg" /><noscript><img decoding="async" class="emoji" role="img" draggable="false" src="https://s.w.org/images/core/emoji/14.0.0/svg/2705.svg" alt="✅" /></noscript> Acesso à plataforma Premium</span></strong></li><li class="elementor-icon-list-item"><span class="elementor-icon-list-text"><img decoding="async" class="emoji" role="img" draggable="false" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="✅" data-lazy-src="https://s.w.org/images/core/emoji/14.0.0/svg/2705.svg" /><noscript><img decoding="async" class="emoji" role="img" draggable="false" src="https://s.w.org/images/core/emoji/14.0.0/svg/2705.svg" alt="✅" /></noscript> <strong>Bônus #1:</strong> Protocolo Desinflama</span></li><li class="elementor-icon-list-item"><span class="elementor-icon-list-text"><img decoding="async" class="emoji" role="img" draggable="false" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="✅" data-lazy-src="https://s.w.org/images/core/emoji/14.0.0/svg/2705.svg" /><noscript><img decoding="async" class="emoji" role="img" draggable="false" src="https://s.w.org/images/core/emoji/14.0.0/svg/2705.svg" alt="✅" /></noscript> <strong>Bônus #2:</strong> Protocolo Lipo Natural</span></li><li class="elementor-icon-list-item"><span class="elementor-icon-list-text"><img decoding="async" class="emoji" role="img" draggable="false" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="✅" data-lazy-src="https://s.w.org/images/core/emoji/14.0.0/svg/2705.svg" /><noscript><img decoding="async" class="emoji" role="img" draggable="false" src="https://s.w.org/images/core/emoji/14.0.0/svg/2705.svg" alt="✅" /></noscript><strong> Bônus #3:</strong> Celulite Nunca Mais</span></li><li class="elementor-icon-list-item"><span class="elementor-icon-list-text"><img decoding="async" class="emoji" role="img" draggable="false" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="✅" data-lazy-src="https://s.w.org/images/core/emoji/14.0.0/svg/2705.svg" /><noscript><img decoding="async" class="emoji" role="img" draggable="false" src="https://s.w.org/images/core/emoji/14.0.0/svg/2705.svg" alt="✅" /></noscript> <strong>Bônus #4:</strong> Protocolo Shape Mewtwo</span></li><li class="elementor-icon-list-item"><span class="elementor-icon-list-text"><img decoding="async" class="emoji" role="img" draggable="false" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="✅" data-lazy-src="https://s.w.org/images/core/emoji/14.0.0/svg/2705.svg" /><noscript><img decoding="async" class="emoji" role="img" draggable="false" src="https://s.w.org/images/core/emoji/14.0.0/svg/2705.svg" alt="✅" /></noscript> <strong>Bônus #5:</strong> + de 200 receitas irresistíveis</span></li><li class="elementor-icon-list-item"><span class="elementor-icon-list-text"><img decoding="async" class="emoji" role="img" draggable="false" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="✅" data-lazy-src="https://s.w.org/images/core/emoji/14.0.0/svg/2705.svg" /><noscript><img decoding="async" class="emoji" role="img" draggable="false" src="https://s.w.org/images/core/emoji/14.0.0/svg/2705.svg" alt="✅" /></noscript> <strong>Bônus #6:</strong> Grupo VIP</span></li><li class="elementor-icon-list-item"><span class="elementor-icon-list-text"><img decoding="async" class="emoji" role="img" draggable="false" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="✅" data-lazy-src="https://s.w.org/images/core/emoji/14.0.0/svg/2705.svg" /><noscript><img decoding="async" class="emoji" role="img" draggable="false" src="https://s.w.org/images/core/emoji/14.0.0/svg/2705.svg" alt="✅" /></noscript> <strong>Bônus #7:</strong> Suporte especializado</span></li><li> </li></ul><p style="text-align: center;">Tudo isso, de <strong><del> <span style="color: #ff0000;"><s>R$ 397 </s></span></del></strong> por apenas&#8230;</p>								</div>
+				</div>
+		<div class="elementor-element elementor-element-769be5d e-con-full e-flex e-con e-child" data-id="769be5d" data-element_type="container" data-settings="{&quot;_ha_eqh_enable&quot;:false}">
+				<div class="elementor-element elementor-element-a066205 elementor-widget-mobile__width-initial elementor-widget elementor-widget-heading" data-id="a066205" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">12X</h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-a9ea152 elementor-widget-mobile__width-initial elementor-widget elementor-widget-heading" data-id="a9ea152" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">R$ 10,03</h2>				</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-ab04181 elementor-widget elementor-widget-text-editor" data-id="ab04181" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>ou <span style="color: #00da1c;"><strong>R$ 97</strong></span> à vista.</p>								</div>
+				</div>
+				<div class="elementor-element elementor-element-1dc6f13 elementor-align-center pulsante1 animated-slow elementor-mobile-align-justify elementor-widget-mobile__width-initial elementor-invisible elementor-widget elementor-widget-button" data-id="1dc6f13" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-sm" href="https://pay.kiwify.com.br/h3d9Syl?afid=epRDdY7q
+                    ">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">ENTRAR NO DESAFIO AGORA</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+				<div class="elementor-element elementor-element-d69f875 elementor-widget elementor-widget-heading" data-id="d69f875" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default"><b>Mais de 30 mil mulheres</b> já participaram do desafio.</h2>				</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-3f2d9a2 e-flex e-con-boxed e-con e-parent" data-id="3f2d9a2" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;_ha_eqh_enable&quot;:false}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-81ea8ad e-con-full e-flex e-con e-child" data-id="81ea8ad" data-element_type="container" data-settings="{&quot;_ha_eqh_enable&quot;:false}">
+				<div class="elementor-element elementor-element-6c9a252 elementor-widget elementor-widget-image" data-id="6c9a252" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img decoding="async" width="500" height="600" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20500%20600'%3E%3C/svg%3E" class="attachment-full size-full wp-image-6134" alt="" data-lazy-srcset="https://comunidademyshape.com/wp-content/uploads/2025/09/Design-sem-nome-20.png 500w, https://comunidademyshape.com/wp-content/uploads/2025/09/Design-sem-nome-20-250x300.png 250w" data-lazy-sizes="(max-width: 500px) 100vw, 500px" data-lazy-src="https://comunidademyshape.com/wp-content/uploads/2025/09/Design-sem-nome-20.png" /><noscript><img loading="lazy" decoding="async" width="500" height="600" src="https://comunidademyshape.com/wp-content/uploads/2025/09/Design-sem-nome-20.png" class="attachment-full size-full wp-image-6134" alt="" srcset="https://comunidademyshape.com/wp-content/uploads/2025/09/Design-sem-nome-20.png 500w, https://comunidademyshape.com/wp-content/uploads/2025/09/Design-sem-nome-20-250x300.png 250w" sizes="(max-width: 500px) 100vw, 500px" /></noscript>															</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-ead8230 e-con-full e-flex e-con e-child" data-id="ead8230" data-element_type="container" data-settings="{&quot;_ha_eqh_enable&quot;:false}">
+				<div class="elementor-element elementor-element-b77632b elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="b77632b" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;none&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Conheça a sua Mentora</h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-0ac58a5 animated-slow elementor-invisible elementor-widget elementor-widget-text-editor" data-id="0ac58a5" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p><strong>Anna Rosa, </strong>Nutricionista em Recomposição Corporal, Emagrecimento, Perda de Gordura, Ganho de Massa Magra, Performance, Modulação Intestinal, Flacidez,<br />Celulite, Saúde e Qualidade de Vida.</p><p>Atuante na área do Health &amp; Fitness há mais de 7 anos</p><p>Ex-atleta da Categoria Wellness</p><p><strong>Fundadora do Método Shape HD</strong>, a maior comunidade de recomposição corporal do mundo</p><p>Ensino mais de 1 milhão de pessoas todos os dias nas redes sociais.</p>								</div>
+				</div>
+				<div class="elementor-element elementor-element-8f4d1dc elementor-align-center pulsante animated-slow elementor-mobile-align-justify elementor-widget-mobile__width-initial elementor-invisible elementor-widget elementor-widget-button" data-id="8f4d1dc" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-sm" href="#oferta">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon">
+				<i aria-hidden="true" class="hm hm-fire-flame"></i>			</span>
+									<span class="elementor-button-text">QUERO ACELERAR O SHAPE</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-76772ad e-flex e-con-boxed e-con e-parent" data-id="76772ad" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;_ha_eqh_enable&quot;:false}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-fb2cf74 elementor-widget__width-initial elementor-invisible elementor-widget elementor-widget-heading" data-id="fb2cf74" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;zoomIn&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">PERGUNTAS<br><span style="color: #F16E00">FREQUENTES</h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-c8521b7 elementor-widget__width-initial elementor-widget-mobile__width-initial elementor-widget elementor-widget-n-accordion" data-id="c8521b7" data-element_type="widget" data-settings="{&quot;default_state&quot;:&quot;expanded&quot;,&quot;max_items_expended&quot;:&quot;one&quot;,&quot;n_accordion_animation_duration&quot;:{&quot;unit&quot;:&quot;ms&quot;,&quot;size&quot;:400,&quot;sizes&quot;:[]}}" data-widget_type="nested-accordion.default">
+				<div class="elementor-widget-container">
+							<div class="e-n-accordion" aria-label="Accordion. Open links with Enter or Space, close with Escape, and navigate with Arrow Keys">
+						<details id="e-n-accordion-item-2100" class="e-n-accordion-item" open>
+				<summary class="e-n-accordion-item-title" data-accordion-index="1" tabindex="0" aria-expanded="true" aria-controls="e-n-accordion-item-2100" >
+					<span class='e-n-accordion-item-title-header'><div class="e-n-accordion-item-title-text"> Quanto tempo de acesso eu tenho na plataforma? </div></span>
+							<span class='e-n-accordion-item-title-icon'>
+			<span class='e-opened' ><svg aria-hidden="true" class="e-font-icon-svg e-fas-minus" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 208H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg></span>
+			<span class='e-closed'><svg aria-hidden="true" class="e-font-icon-svg e-fas-plus" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg></span>
+		</span>
+
+						</summary>
+				<div role="region" aria-labelledby="e-n-accordion-item-2100" class="elementor-element elementor-element-53df103 e-con-full e-flex e-con e-child" data-id="53df103" data-element_type="container" data-settings="{&quot;_ha_eqh_enable&quot;:false}">
+				<div class="elementor-element elementor-element-fb05ffd elementor-widget elementor-widget-heading" data-id="fb05ffd" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Você terá 30 dias de desafio mais 30 de bônus.</h2>				</div>
+				</div>
+				</div>
+					</details>
+						<details id="e-n-accordion-item-2101" class="e-n-accordion-item" >
+				<summary class="e-n-accordion-item-title" data-accordion-index="2" tabindex="-1" aria-expanded="false" aria-controls="e-n-accordion-item-2101" >
+					<span class='e-n-accordion-item-title-header'><div class="e-n-accordion-item-title-text"> Consigo assistir tudo no meu celular? </div></span>
+							<span class='e-n-accordion-item-title-icon'>
+			<span class='e-opened' ><svg aria-hidden="true" class="e-font-icon-svg e-fas-minus" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 208H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg></span>
+			<span class='e-closed'><svg aria-hidden="true" class="e-font-icon-svg e-fas-plus" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg></span>
+		</span>
+
+						</summary>
+				<div role="region" aria-labelledby="e-n-accordion-item-2101" class="elementor-element elementor-element-4e0f652 e-con-full e-flex e-con e-child" data-id="4e0f652" data-element_type="container" data-settings="{&quot;_ha_eqh_enable&quot;:false}">
+				<div class="elementor-element elementor-element-7e147f4 elementor-widget elementor-widget-heading" data-id="7e147f4" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Sim, temos um aplicativo para você ter tudo na palma da sua mão. Android ou IOS.</h2>				</div>
+				</div>
+				</div>
+					</details>
+						<details id="e-n-accordion-item-2102" class="e-n-accordion-item" >
+				<summary class="e-n-accordion-item-title" data-accordion-index="3" tabindex="-1" aria-expanded="false" aria-controls="e-n-accordion-item-2102" >
+					<span class='e-n-accordion-item-title-header'><div class="e-n-accordion-item-title-text"> Serve para quem não treina? </div></span>
+							<span class='e-n-accordion-item-title-icon'>
+			<span class='e-opened' ><svg aria-hidden="true" class="e-font-icon-svg e-fas-minus" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 208H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg></span>
+			<span class='e-closed'><svg aria-hidden="true" class="e-font-icon-svg e-fas-plus" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg></span>
+		</span>
+
+						</summary>
+				<div role="region" aria-labelledby="e-n-accordion-item-2102" class="elementor-element elementor-element-68ff3a9 e-con-full e-flex e-con e-child" data-id="68ff3a9" data-element_type="container" data-settings="{&quot;_ha_eqh_enable&quot;:false}">
+				<div class="elementor-element elementor-element-e86a7b0 elementor-widget elementor-widget-heading" data-id="e86a7b0" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Serve para quem não treina e já treina. Nossas planilhas de treinos servem para mesmo que nunca treinou, criamos uma didática do Básico ao Avançado para quem quer treinar 4,5 ou até 6x na semana. </h2>				</div>
+				</div>
+				</div>
+					</details>
+						<details id="e-n-accordion-item-2103" class="e-n-accordion-item" >
+				<summary class="e-n-accordion-item-title" data-accordion-index="4" tabindex="-1" aria-expanded="false" aria-controls="e-n-accordion-item-2103" >
+					<span class='e-n-accordion-item-title-header'><div class="e-n-accordion-item-title-text"> Eu sou falsa magra, serve para mim? </div></span>
+							<span class='e-n-accordion-item-title-icon'>
+			<span class='e-opened' ><svg aria-hidden="true" class="e-font-icon-svg e-fas-minus" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 208H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg></span>
+			<span class='e-closed'><svg aria-hidden="true" class="e-font-icon-svg e-fas-plus" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg></span>
+		</span>
+
+						</summary>
+				<div role="region" aria-labelledby="e-n-accordion-item-2103" class="elementor-element elementor-element-54bd619 e-con-full e-flex e-con e-child" data-id="54bd619" data-element_type="container" data-settings="{&quot;_ha_eqh_enable&quot;:false}">
+				<div class="elementor-element elementor-element-f5c055c elementor-widget elementor-widget-heading" data-id="f5c055c" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Com toda certeza, temos aulas que entraram como falsas magras e hoje estão totalmente fora da antiga realidade delas.</h2>				</div>
+				</div>
+				</div>
+					</details>
+						<details id="e-n-accordion-item-2104" class="e-n-accordion-item" >
+				<summary class="e-n-accordion-item-title" data-accordion-index="5" tabindex="-1" aria-expanded="false" aria-controls="e-n-accordion-item-2104" >
+					<span class='e-n-accordion-item-title-header'><div class="e-n-accordion-item-title-text"> Sou lactante, serve para mim? </div></span>
+							<span class='e-n-accordion-item-title-icon'>
+			<span class='e-opened' ><svg aria-hidden="true" class="e-font-icon-svg e-fas-minus" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 208H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg></span>
+			<span class='e-closed'><svg aria-hidden="true" class="e-font-icon-svg e-fas-plus" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg></span>
+		</span>
+
+						</summary>
+				<div role="region" aria-labelledby="e-n-accordion-item-2104" class="elementor-element elementor-element-8647261 e-con-full e-flex e-con e-child" data-id="8647261" data-element_type="container" data-settings="{&quot;_ha_eqh_enable&quot;:false}">
+				<div class="elementor-element elementor-element-ba7e197 elementor-widget elementor-widget-heading" data-id="ba7e197" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Sim, atendemos mamães que estão no período pós-parto e lactantes.</h2>				</div>
+				</div>
+				</div>
+					</details>
+						<details id="e-n-accordion-item-2105" class="e-n-accordion-item" >
+				<summary class="e-n-accordion-item-title" data-accordion-index="6" tabindex="-1" aria-expanded="false" aria-controls="e-n-accordion-item-2105" >
+					<span class='e-n-accordion-item-title-header'><div class="e-n-accordion-item-title-text"> Moro fora do Brasil, consigo acessar? </div></span>
+							<span class='e-n-accordion-item-title-icon'>
+			<span class='e-opened' ><svg aria-hidden="true" class="e-font-icon-svg e-fas-minus" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 208H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg></span>
+			<span class='e-closed'><svg aria-hidden="true" class="e-font-icon-svg e-fas-plus" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg></span>
+		</span>
+
+						</summary>
+				<div role="region" aria-labelledby="e-n-accordion-item-2105" class="elementor-element elementor-element-da94d24 e-con-full e-flex e-con e-child" data-id="da94d24" data-element_type="container" data-settings="{&quot;_ha_eqh_enable&quot;:false}">
+				<div class="elementor-element elementor-element-d5db2b5 elementor-widget elementor-widget-heading" data-id="d5db2b5" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Sim, nossa plataforma e nossa comunidade é internacional.</h2>				</div>
+				</div>
+				</div>
+					</details>
+					</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-e9da3fe elementor-align-center animated-slow elementor-mobile-align-justify elementor-widget-mobile__width-initial elementor-invisible elementor-widget elementor-widget-button" data-id="e9da3fe" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-sm" href="https://wa.link/785s1p">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon">
+				<svg aria-hidden="true" class="e-font-icon-svg e-fab-whatsapp" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"></path></svg>			</span>
+									<span class="elementor-button-text">SUPORTE EXCLUSIVO</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+				<div class="elementor-element elementor-element-666d8d3 elementor-widget elementor-widget-image" data-id="666d8d3" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img fetchpriority="high" decoding="async" width="800" height="272" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20800%20272'%3E%3C/svg%3E" class="attachment-large size-large wp-image-6013" alt="" data-lazy-srcset="https://comunidademyshape.com/wp-content/uploads/2025/09/LOGOS-e1757448101838-1024x348.png 1024w, https://comunidademyshape.com/wp-content/uploads/2025/09/LOGOS-e1757448101838-300x102.png 300w, https://comunidademyshape.com/wp-content/uploads/2025/09/LOGOS-e1757448101838-768x261.png 768w, https://comunidademyshape.com/wp-content/uploads/2025/09/LOGOS-e1757448101838.png 1080w" data-lazy-sizes="(max-width: 800px) 100vw, 800px" data-lazy-src="https://comunidademyshape.com/wp-content/uploads/2025/09/LOGOS-e1757448101838-1024x348.png" /><noscript><img fetchpriority="high" decoding="async" width="800" height="272" src="https://comunidademyshape.com/wp-content/uploads/2025/09/LOGOS-e1757448101838-1024x348.png" class="attachment-large size-large wp-image-6013" alt="" srcset="https://comunidademyshape.com/wp-content/uploads/2025/09/LOGOS-e1757448101838-1024x348.png 1024w, https://comunidademyshape.com/wp-content/uploads/2025/09/LOGOS-e1757448101838-300x102.png 300w, https://comunidademyshape.com/wp-content/uploads/2025/09/LOGOS-e1757448101838-768x261.png 768w, https://comunidademyshape.com/wp-content/uploads/2025/09/LOGOS-e1757448101838.png 1080w" sizes="(max-width: 800px) 100vw, 800px" /></noscript>															</div>
+				</div>
+				<div class="elementor-element elementor-element-a0d9551 animated-slow elementor-widget elementor-widget-heading" data-id="a0d9551" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;none&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">© 2025  Anna Rosa - Todos os Direitos Reservados</h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-c56d480 elementor-widget elementor-widget-html" data-id="c56d480" data-element_type="widget" data-widget_type="html.default">
+				<div class="elementor-widget-container">
+					
+
+       
+
+				</div>
+				</div>
+					</div>
+				</div>
+				</div>
+		    <!-- Meta Pixel Event Code -->
+    
+    <!-- End Meta Pixel Event Code -->
+        <div id='fb-pxl-ajax-code'></div>			
+			
+
+
+
+
+
+
+
+
+
+
+
+<script id="site_tracking-js-extra">
+var php_data = {"ac_settings":{"tracking_actid":28438900,"site_tracking_default":1},"user_email":""};
+</script>
+
+<script id="rocket-browser-checker-js-after">
+"use strict";var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var RocketBrowserCompatibilityChecker=function(){function RocketBrowserCompatibilityChecker(options){_classCallCheck(this,RocketBrowserCompatibilityChecker),this.passiveSupported=!1,this._checkPassiveOption(this),this.options=!!this.passiveSupported&&options}return _createClass(RocketBrowserCompatibilityChecker,[{key:"_checkPassiveOption",value:function(self){try{var options={get passive(){return!(self.passiveSupported=!0)}};window.addEventListener("test",null,options),window.removeEventListener("test",null,options)}catch(err){self.passiveSupported=!1}}},{key:"initRequestIdleCallback",value:function(){!1 in window&&(window.requestIdleCallback=function(cb){var start=Date.now();return setTimeout(function(){cb({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-start))}})},1)}),!1 in window&&(window.cancelIdleCallback=function(id){return clearTimeout(id)})}},{key:"isDataSaverModeOn",value:function(){return"connection"in navigator&&!0===navigator.connection.saveData}},{key:"supportsLinkPrefetch",value:function(){var elem=document.createElement("link");return elem.relList&&elem.relList.supports&&elem.relList.supports("prefetch")&&window.IntersectionObserver&&"isIntersecting"in IntersectionObserverEntry.prototype}},{key:"isSlowConnection",value:function(){return"connection"in navigator&&"effectiveType"in navigator.connection&&("2g"===navigator.connection.effectiveType||"slow-2g"===navigator.connection.effectiveType)}}]),RocketBrowserCompatibilityChecker}();
+</script>
+<script id="rocket-preload-links-js-extra">
+var RocketPreloadLinksConfig = {"excludeUris":"\/(?:.+\/)?feed(?:\/(?:.+\/?)?)?$|\/(?:.+\/)?embed\/|\/(index.php\/)?(.*)wp-json(\/.*|$)|\/refer\/|\/go\/|\/recommend\/|\/recommends\/","usesTrailingSlash":"1","imageExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php","fileExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php|html|htm","siteUrl":"https:\/\/comunidademyshape.com","onHoverDelay":"100","rateThrottle":"3"};
+</script>
+<script id="rocket-preload-links-js-after">
+(function() {
+"use strict";var r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e=function(){function i(e,t){for(var n=0;n<t.length;n++){var i=t[n];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}return function(e,t,n){return t&&i(e.prototype,t),n&&i(e,n),e}}();function i(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var t=function(){function n(e,t){i(this,n),this.browser=e,this.config=t,this.options=this.browser.options,this.prefetched=new Set,this.eventTime=null,this.threshold=1111,this.numOnHover=0}return e(n,[{key:"init",value:function(){!this.browser.supportsLinkPrefetch()||this.browser.isDataSaverModeOn()||this.browser.isSlowConnection()||(this.regex={excludeUris:RegExp(this.config.excludeUris,"i"),images:RegExp(".("+this.config.imageExt+")$","i"),fileExt:RegExp(".("+this.config.fileExt+")$","i")},this._initListeners(this))}},{key:"_initListeners",value:function(e){-1<this.config.onHoverDelay&&document.addEventListener("mouseover",e.listener.bind(e),e.listenerOptions),document.addEventListener("mousedown",e.listener.bind(e),e.listenerOptions),document.addEventListener("touchstart",e.listener.bind(e),e.listenerOptions)}},{key:"listener",value:function(e){var t=e.target.closest("a"),n=this._prepareUrl(t);if(null!==n)switch(e.type){case"mousedown":case"touchstart":this._addPrefetchLink(n);break;case"mouseover":this._earlyPrefetch(t,n,"mouseout")}}},{key:"_earlyPrefetch",value:function(t,e,n){var i=this,r=setTimeout(function(){if(r=null,0===i.numOnHover)setTimeout(function(){return i.numOnHover=0},1e3);else if(i.numOnHover>i.config.rateThrottle)return;i.numOnHover++,i._addPrefetchLink(e)},this.config.onHoverDelay);t.addEventListener(n,function e(){t.removeEventListener(n,e,{passive:!0}),null!==r&&(clearTimeout(r),r=null)},{passive:!0})}},{key:"_addPrefetchLink",value:function(i){return this.prefetched.add(i.href),new Promise(function(e,t){var n=document.createElement("link");n.rel="prefetch",n.href=i.href,n.onload=e,n.onerror=t,document.head.appendChild(n)}).catch(function(){})}},{key:"_prepareUrl",value:function(e){if(null===e||"object"!==(void 0===e?"undefined":r(e))||!1 in e||-1===["http:","https:"].indexOf(e.protocol))return null;var t=e.href.substring(0,this.config.siteUrl.length),n=this._getPathname(e.href,t),i={original:e.href,protocol:e.protocol,origin:t,pathname:n,href:t+n};return this._isLinkOk(i)?i:null}},{key:"_getPathname",value:function(e,t){var n=t?e.substring(this.config.siteUrl.length):e;return n.startsWith("/")||(n="/"+n),this._shouldAddTrailingSlash(n)?n+"/":n}},{key:"_shouldAddTrailingSlash",value:function(e){return this.config.usesTrailingSlash&&!e.endsWith("/")&&!this.regex.fileExt.test(e)}},{key:"_isLinkOk",value:function(e){return null!==e&&"object"===(void 0===e?"undefined":r(e))&&(!this.prefetched.has(e.href)&&e.origin===this.config.siteUrl&&-1===e.href.indexOf("?")&&-1===e.href.indexOf("#")&&!this.regex.excludeUris.test(e.href)&&!this.regex.images.test(e.href))}}],[{key:"run",value:function(){"undefined"!=typeof RocketPreloadLinksConfig&&new n(new RocketBrowserCompatibilityChecker({capture:!0,passive:!0}),RocketPreloadLinksConfig).init()}}]),n}();t.run();
+}());
+</script>
+
+
+<script id="happy-elementor-addons-js-extra">
+var HappyLocalize = {"ajax_url":"https:\/\/comunidademyshape.com\/wp-admin\/admin-ajax.php","nonce":"21f26319a3","pdf_js_lib":"https:\/\/comunidademyshape.com\/wp-content\/plugins\/happy-elementor-addons\/assets\/vendor\/pdfjs\/lib"};
+</script>
+
+<script id="happy-addons-pro-js-extra">
+var HappyProLocalize = {"ajax_url":"https:\/\/comunidademyshape.com\/wp-admin\/admin-ajax.php","nonce":"a384ce9ee6"};
+</script>
+
+
+
+
+
+
+<script src="https://comunidademyshape.com/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0" id="wp-polyfill-js"></script>
+<script src="https://comunidademyshape.com/wp-includes/js/dist/hooks.min.js?ver=c6aec9a8d4e5a5d543a1" id="wp-hooks-js"></script>
+<script src="https://comunidademyshape.com/wp-includes/js/dist/i18n.min.js?ver=7701b0c3857f914212ef" id="wp-i18n-js"></script>
+
+<script id="elementor-pro-frontend-js-before">
+var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/comunidademyshape.com\/wp-admin\/admin-ajax.php","nonce":"741ca9f3ae","urls":{"assets":"https:\/\/comunidademyshape.com\/wp-content\/plugins\/elementor-pro\/assets\/","rest":"https:\/\/comunidademyshape.com\/wp-json\/"},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"}},"facebook_sdk":{"lang":"pt_BR","app_id":""},"lottie":{"defaultAnimationUrl":"https:\/\/comunidademyshape.com\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
+</script>
+
+
+<script id="elementor-frontend-js-before">
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Compartilhar no Facebook","shareOnTwitter":"Compartilhar no Twitter","pinIt":"Fixar","download":"Baixar","downloadImage":"Baixar imagem","fullscreen":"Tela cheia","zoom":"Zoom","share":"Compartilhar","playVideo":"Reproduzir v\u00eddeo","previous":"Anterior","next":"Pr\u00f3ximo","close":"Fechar","a11yCarouselPrevSlideMessage":"Slide anterior","a11yCarouselNextSlideMessage":"Pr\u00f3ximo slide","a11yCarouselFirstSlideMessage":"Este \u00e9 o primeiro slide","a11yCarouselLastSlideMessage":"Este \u00e9 o \u00faltimo slide","a11yCarouselPaginationBulletMessage":"Ir para o slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Dispositivos m\u00f3veis no modo retrato","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Dispositivos m\u00f3veis no modo paisagem","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet no modo retrato","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet no modo paisagem","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Notebook","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Tela ampla (widescreen)","value":2400,"default_value":2400,"direction":"min","is_enabled":false}},"hasCustomBreakpoints":false},"version":"3.27.4","is_static":false,"experimentalFeatures":{"e_font_icon_svg":true,"additional_custom_breakpoints":true,"container":true,"e_swiper_latest":true,"e_onboarding":true,"theme_builder_v2":true,"hello-theme-header-footer":true,"home_screen":true,"landing-pages":true,"nested-elements":true,"editor_v2":true,"link-in-bio":true,"floating-buttons":true,"page-transitions":true,"notes":true,"form-submissions":true,"e_scroll_snap":true},"urls":{"assets":"https:\/\/comunidademyshape.com\/wp-content\/plugins\/elementor\/assets\/","ajaxurl":"https:\/\/comunidademyshape.com\/wp-admin\/admin-ajax.php","uploadUrl":"https:\/\/comunidademyshape.com\/wp-content\/uploads"},"nonces":{"floatingButtonsClickTracking":"3178208ec7"},"swiperClass":"swiper","settings":{"page":[],"editorPreferences":[]},"kit":{"body_background_background":"classic","active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description","hello_header_logo_type":"title","hello_footer_logo_type":"logo"},"post":{"id":5998,"title":"Desafio%20Acelera%20Shape%20%E2%80%93%20Comunidade%20MyShape","excerpt":"","featuredImage":"https:\/\/comunidademyshape.com\/wp-content\/uploads\/2025\/07\/SECA-3-e1751570765148-1024x818.png"}};
+</script>
+
+
+
+<script>window.lazyLoadOptions=[{elements_selector:"img[data-lazy-src],.rocket-lazyload",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,callback_loaded:function(element){if(element.tagName==="IFRAME"&&element.dataset.rocketLazyload=="fitvidscompatible"){if(element.classList.contains("lazyloaded")){if(typeof window.jQuery!="undefined"){if(jQuery.fn.fitVids){jQuery(element).parent().fitVids()}}}}}},{elements_selector:".rocket-lazyload",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,}];window.addEventListener('LazyLoad::Initialized',function(e){var lazyLoadInstance=e.detail.instance;if(window.MutationObserver){var observer=new MutationObserver(function(mutations){var image_count=0;var iframe_count=0;var rocketlazy_count=0;mutations.forEach(function(mutation){for(var i=0;i<mutation.addedNodes.length;i++){if(typeof mutation.addedNodes[i].getElementsByTagName!=='function'){continue}
+if(typeof mutation.addedNodes[i].getElementsByClassName!=='function'){continue}
+images=mutation.addedNodes[i].getElementsByTagName('img');is_image=mutation.addedNodes[i].tagName=="IMG";iframes=mutation.addedNodes[i].getElementsByTagName('iframe');is_iframe=mutation.addedNodes[i].tagName=="IFRAME";rocket_lazy=mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');image_count+=images.length;iframe_count+=iframes.length;rocketlazy_count+=rocket_lazy.length;if(is_image){image_count+=1}
+if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_count>0){lazyLoadInstance.update()}});var b=document.getElementsByTagName("body")[0];var config={childList:!0,subtree:!0};observer.observe(b,config)}},!1)</script><script data-no-minify="1" async src="https://comunidademyshape.com/wp-content/plugins/wp-rocket/assets/js/lazyload/17.8.3/lazyload.min.js"></script>	<script src="https://comunidademyshape.com/wp-content/cache/min/1/94f979f381def367739bae07ee6e1915.js" data-minify="1" defer></script><script type='text/javascript'>
+    fbq('track', 'PageView', []);
+  </script></body>
+</html>
+
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1759343809 -->
